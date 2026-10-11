@@ -1,0 +1,10 @@
+# Compiled Java output
+bin/
+*.class
+
+# Eclipse local settings
+.settings/
+
+# Optional: ignore Eclipse project metadata if you don't want to version it
+# .classpath
+# .project
