@@ -1,5 +1,7 @@
 package arrayProblems;
 
+import java.math.BigInteger;
+
 public class FactorialOfEachElementInArray {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
@@ -12,12 +14,12 @@ public class FactorialOfEachElementInArray {
 		
 	}
 	
-	public static long isFactorial(int n)
+	public static BigInteger isFactorial(int n)
 	{
-		long fact=1;
+		BigInteger fact=BigInteger.ONE;
 		while(n>0)
 		{
-			fact=fact*n;
+			fact=fact.multiply(BigInteger.valueOf(n));
 			n=n-1;
 		}
 		return fact;
