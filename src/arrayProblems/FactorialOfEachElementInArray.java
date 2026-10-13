@@ -12,15 +12,14 @@ public class FactorialOfEachElementInArray {
 		
 	}
 	
-	public static int isFactorial(int n)
+	public static long isFactorial(int n)
 	{
-		int fact=1;
-		while(n!=0)
+		long fact=1;
+		while(n>0)
 		{
 			fact=fact*n;
 			n=n-1;
 		}
-//		System.out.println(fact);
 		return fact;
 	}
 
