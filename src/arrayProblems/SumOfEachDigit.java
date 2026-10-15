@@ -3,18 +3,18 @@ package arrayProblems;
 public class SumOfEachDigit {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
-		isSum(ar);
+		isSumOfDigits(ar);
 	}
 	
-	public static void isSum(int[] array)
+	public static void isSumOfDigits(int[] array)
 	{
 		for(int i=0;i<array.length;i++)
 		{
-			int n=array[i];
-			int sum=0;
+			long n=Math.abs((long)array[i]);
+			long sum=0;
 			while(n>0)
 			{
-				int digit=n%10;
+				long digit=n%10;
 				sum=sum+digit;
 				n=n/10;
 			}
