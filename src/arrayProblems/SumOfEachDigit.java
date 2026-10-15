@@ -21,5 +21,4 @@ public class SumOfEachDigit {
 			System.out.println("Sum of "+array[i]+" is\t:"+sum);
 		}
 	}
-
 }

@@ -58,7 +58,7 @@ Test Cases:
 
 5. Input: []
    Expected Output: 0
------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 3. Find the Product of Elements in an Array
 
 Question:
@@ -198,24 +198,32 @@ Example Input:
 
 Expected Output:
 Number    Square    Cube
-2         4         8
-3         9         27
-4         16        64
-5         25        125
+2         	     4           8
+3         	     9           27
+4         	    16         64
+5         	    25        125
 
 Test Cases:
 
 1. Input: [2, 3]
-   Expected Output: Squares: [4, 9], Cubes: [8, 27]
+   Expected Output: 
+	Squares: [4, 9], 
+	Cubes: [8, 27]
 
 2. Input: [0, 1]
-   Expected Output: Squares: [0, 1], Cubes: [0, 1]
+   Expected Output: 
+	Squares: [0, 1], 
+	Cubes: [0, 1]
 
 3. Input: [-2, 3]
-   Expected Output: Squares: [4, 9], Cubes: [-8, 27]
+   Expected Output: 
+	Squares: [4, 9], 
+	Cubes: [-8, 27]
 
 4. Input: [5]
-   Expected Output: Squares: [25], Cubes: [125]
+   Expected Output: 
+	Squares: [25], 
+	Cubes: [125]
 
 5. Input: []
    Expected Output: No results
@@ -250,16 +258,189 @@ Test Cases:
 
 5. Input: [1, 2, 2, 3]
    Expected Output: [3, 2, 2, 1]
+---------------------------------------------------------------------------------------------
+8. Check Whether an Array Is a Palindrome
 
+Question:
+Write a Java program to check whether a given array is a palindrome array or not.
 
+Explanation:
+An array is called a palindrome array if its elements remain the same when read from left to right and from right to left. Compare the elements from both ends of the array. If all corresponding elements are equal, the array is a palindrome; otherwise, it is not a palindrome.
 
+Example Input:
+[1, 2, 3, 2, 1]
 
+Expected Output:
+Palindrome array
 
+Test Cases:
 
+1. Input: [1, 2, 3, 2, 1]
+   Expected Output: Palindrome array
 
+2. Input: [1, 2, 3, 4, 5]
+   Expected Output: Not a palindrome array
 
+3. Input: [7]
+   Expected Output: Palindrome array
 
+4. Input: [1, 2, 2, 1]
+   Expected Output: Palindrome array
 
+5. Input: [5, 5, 5, 5]
+   Expected Output: Palindrome array
 
+6. Input: [-1, 2, 0, 2, -1]
+   Expected Output: Palindrome array
 
+7. Input: [1, 2, 3, 1]
+   Expected Output: Not a palindrome array
 
+8. Input: [0, 0, 0]
+   Expected Output: Palindrome array
+
+9. Input: []
+   Expected Output: Palindrome array (if an empty array is allowed)
+---------------------------------------------------------------------------------------------
+9. Find the Sum of Digits of Each Element in an Array
+
+Question:
+Write a Java program to find the sum of digits of each element in a given array.
+
+Explanation:
+Extract each digit of every array element using the modulo (%) operator and remove the last digit using the division (/) operator. Add all the extracted digits to calculate the sum of digits of each element. For negative numbers, calculate the sum using the absolute value of the number.
+
+Example Input:
+[123, 456, 789, 10]
+
+Expected Output:
+Sum of 123 is: 6
+Sum of 456 is: 15
+Sum of 789 is: 24
+Sum of 10 is: 1
+
+Test Cases:
+
+1. Input: [123, 456]
+   Expected Output: 
+	Sum of 123 is: 6, 
+	Sum of 456 is: 15
+
+2. Input: [0, 10, 100]
+   Expected Output: 
+	Sum of 0 is: 0, 
+	Sum of 10 is: 1, 
+	Sum of 100 is: 1
+
+3. Input: [999, 1234]
+   Expected Output: 
+	Sum of 999 is: 27, 
+	Sum of 1234 is: 10
+
+4. Input: [-123, -456]
+   Expected Output: 
+	Sum of -123 is: 6, 
+	Sum of -456 is: 15
+
+5. Input: [7]
+   Expected Output: 
+	Sum of 7 is: 7
+
+6. Input: []
+   Expected Output: No results
+---------------------------------------------------------------------------------------------
+10. Find the Product of Digits of Each Element in an Array
+
+Question:
+Write a Java program to find the product of digits of each element in a given array.
+
+Explanation:
+Extract each digit of every array element using the modulo (%) operator and remove the last digit using the division (/) operator. Multiply all the extracted digits to calculate the product of digits of each element. For negative numbers, calculate the product using the absolute value of the number. If any digit is zero, the product of digits will be zero.
+
+Example Input:
+[123, 234, 405, 56]
+
+Expected Output:
+Product of 123 is: 6
+Product of 234 is: 24
+Product of 405 is: 0
+Product of 56 is: 30
+
+Test Cases:
+
+1. Input: [123, 234]
+   Expected Output: 
+	Product of 123 is: 6, 
+	Product of 234 is: 24
+
+2. Input: [0, 10, 100]
+   Expected Output: 
+	Product of 0 is: 0, 
+	Product of 10 is: 0, 
+	Product of 100 is: 0
+
+3. Input: [999, 1234]
+   Expected Output: 
+	Product of 999 is: 729, 
+	Product of 1234 is: 24
+
+4. Input: [-123, -456]
+   Expected Output: 
+	Product of -123 is: 6, 
+	Product of -456 is: 120
+
+5. Input: [7]
+   Expected Output: 
+	Product of 7 is: 7
+
+6. Input: []
+   Expected Output: No results
+---------------------------------------------------------------------------------------------
+11. Reverse Each Element in an Array
+
+Question:
+Write a Java program to reverse the digits of each element in a given array.
+
+Explanation:
+Extract the last digit of each array element using the modulo (%) operator and remove the last digit using the division (/) operator. Construct the reversed number by multiplying the current reversed number by 10 and adding the extracted digit. Repeat until all digits have been processed. For negative numbers, reverse the digits of the absolute value and preserve the original negative sign. Leading zeros in the reversed number are not preserved because the result is an integer.
+
+Example Input:
+[123, 456, 120, 789]
+
+Expected Output:
+Reverse of 123 is: 321
+Reverse of 456 is: 654
+Reverse of 120 is: 21
+Reverse of 789 is: 987
+
+Test Cases:
+
+1. Input: [123, 456]
+  Expected Output:
+ 	 Reverse of 123 is: 321,
+  	Reverse of 456 is: 654
+
+2. Input: [10, 100, 120]
+   Expected Output: 
+	Reverse of 10 is: 1, 
+	Reverse of 100 is: 1, 
+	Reverse of 120 is: 21
+
+3. Input: [0, 7, 99]
+   Expected Output: 
+	Reverse of 0 is: 0, 
+	Reverse of 7 is: 7,
+	Reverse of 99 is: 99
+
+4. Input: [-123, -456]
+   Expected Output: 
+	Reverse of -123 is: -321, 
+	Reverse of -456 is: -654
+
+5. Input: [1234, 5678]
+   Expected Output: 
+	Reverse of 1234 is: 4321, 
+	Reverse of 5678 is: 8765
+
+6. Input: []
+   Expected Output: No results
