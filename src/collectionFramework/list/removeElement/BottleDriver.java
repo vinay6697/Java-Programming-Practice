@@ -33,6 +33,13 @@ public class BottleDriver {
 	
 	public static void removeByIndex(LinkedList<Bottle> bottles,int index)
 	{
-		bottles.remove(index);
+		if(index<0 || index>bottles.size())
+			System.out.println("invalid index");
+		else
+		{
+			System.out.println(bottles.get(index));
+			bottles.remove(index);
+			
+		}
 	}
 }
