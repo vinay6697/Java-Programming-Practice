@@ -168,3 +168,157 @@ By using the ID as a key element, obtain the ID from the user and search for the
 If present, print the object details (i.e., ID, name, age); otherwise, print a suitable message.
 
 ---------------------------------------------------------------------------------------------------------------------
+9. Question: Bottle ArrayList
+
+Design a class named Bottle with the following attributes:
+- brand
+- size
+- color
+
+Create a Test class that contains an LinkedList of 5 Bottle objects.
+
+Design a method that accepts an LinkedList of Bottle objects and a key index from the user. The method should print the details of the Bottle object present at the index entered by the user.
+
+Requirements:
+1. Create a Bottle class with brand, size, and color attributes.
+2. Create an LinkedList containing 5 Bottle objects.
+3. Accept a key index from the user.
+4. Pass the LinkedList and the key index to a method.
+5. Display the details of the Bottle object present at the specified index.
+6. If the index is invalid, display an appropriate error message.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Key Index: 0
+
+Expected Output:
+Display the details of the first Bottle object in the ArrayList.
+
+Test Case 2:
+Input:
+Key Index: 2
+
+Expected Output:
+Display the details of the third Bottle object in the ArrayList.
+
+Test Case 3:
+Input:
+Key Index: 4
+
+Expected Output:
+Display the details of the fifth Bottle object in the ArrayList.
+
+Test Case 4:
+Input:
+Key Index: 5
+
+Expected Output:
+Invalid index!
+
+Test Case 5:
+Input:
+Key Index: -1
+
+Expected Output:
+Invalid index!
+
+---------------------------------------------------------------------------------------------------------------------
+10. Question: Remove an Employee Object from an ArrayList
+
+Design an Employee class with the following attributes:
+- id
+- name
+- salary
+
+Create a Test class that contains an ArrayList of 5 Employee objects.
+
+Write a program to remove an Employee object from the ArrayList based on an Employee object provided by the user.
+
+Requirements:
+1. Create an Employee class with id, name, and salary attributes.
+2. Create an ArrayList containing 5 Employee objects.
+3. Display all Employee objects before removal.
+4. Accept the Employee details to be removed from the user.
+5. Create an Employee object using the details entered by the user.
+6. Remove the matching Employee object from the ArrayList.
+7. Display an appropriate message indicating whether the Employee object was removed successfully.
+8. Display all Employee objects after the removal operation.
+
+Test Cases:
+
+Test Case 1: Remove an Existing Employee
+
+Initial Employee List:
+Employee(id=101, name="Ravi", salary=30000)
+Employee(id=102, name="Priya", salary=35000)
+Employee(id=103, name="Kiran", salary=40000)
+Employee(id=104, name="Sneha", salary=45000)
+Employee(id=105, name="Arun", salary=50000)
+
+Input:
+id = 103
+name = Kiran
+salary = 40000
+
+Expected Output:
+Employee removed successfully.
+
+Remaining Employees:
+101 Ravi 30000
+102 Priya 35000
+104 Sneha 45000
+105 Arun 50000
+
+Test Case 2: Remove Another Existing Employee
+
+Input:
+id = 101
+name = Ravi
+salary = 30000
+
+Expected Output:
+Employee removed successfully.
+
+Remaining Employees:
+102 Priya 35000
+103 Kiran 40000
+104 Sneha 45000
+105 Arun 50000
+
+Test Case 3: Remove a Non-Existing Employee
+
+Input:
+id = 999
+name = Rahul
+salary = 60000
+
+Expected Output:
+Employee not found.
+
+The original Employee list should remain unchanged.
+
+Test Case 4: Employee ID Matches but Name Does Not Match
+
+Input:
+id = 103
+name = Rahul
+salary = 40000
+
+Expected Output:
+Employee not found.
+
+Assumption:
+An Employee object matches another Employee object only when all three attributes (id, name, and salary) are equal.
+
+Test Case 5: Employee ID and Name Match but Salary Does Not Match
+
+Input:
+id = 103
+name = Kiran
+salary = 45000
+
+Expected Output:
+Employee not found.
+---------------------------------------------------------------------------------------------------------------------
