@@ -360,3 +360,64 @@ Display an appropriate message indicating that no employee with ID 110 exists.
 Note:
 - The employee ID is unique.
 ---------------------------------------------------------------------------------------------------------------------
+12 Question: Shoe ArrayList Update
+
+Design a class named Shoe with the following attributes:
+- pid
+- price
+- color
+
+Create a Test class that contains an ArrayList of 5 Shoe objects.
+
+Design a method that accepts an ArrayList of Shoe objects and a pid as a key element. 
+The method should remove the details of the Shoe object matching the given pid and return the updated ArrayList.
+
+Requirements:
+1. Create a Shoe class with pid, price, and color attributes.
+2. Create an ArrayList containing 5 Shoe objects.
+3. Accept a pid from the user.
+4. Pass the ArrayList and pid to a method to update the matching Shoe object's details.
+5. Return the updated ArrayList from the method.
+6. If no Shoe object matches the given pid, display an appropriate message.
+
+Test Cases:
+
+Test Case 1:
+Input:
+PID: 101
+New Price: 2500.0
+New Color: Black
+
+Expected Output:
+Update the Shoe object with pid 101 to price 2500.0 and color Black. Display the updated ArrayList.
+
+Test Case 2:
+Input:
+PID: 103
+New Price: 1800.0
+New Color: White
+
+Expected Output:
+Update the Shoe object with pid 103 to price 1800.0 and color White. Display the updated ArrayList.
+
+Test Case 3:
+Input:
+PID: 105
+New Price: 3200.0
+New Color: Blue
+
+Expected Output:
+Update the Shoe object with pid 105 to price 3200.0 and color Blue. Display the updated ArrayList.
+
+Test Case 4:
+Input:
+PID: 110
+New Price: 1500.0
+New Color: Red
+
+Expected Output:
+Display an appropriate message indicating that no Shoe object with pid 110 exists. The ArrayList should remain unchanged.
+
+Note:
+- The pid is unique for each Shoe object.
+- The method must return the updated ArrayList.
