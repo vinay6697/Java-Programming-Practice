@@ -423,6 +423,7 @@ Note:
 - The method must return the updated LinkedList.
 
 ---------------------------------------------------------------------------------------------------------------------
+
 13 Question: Student LinkedList Sorting
 
 Design a class named Student with the following attributes:
@@ -476,3 +477,61 @@ Note:
 - Sort the objects based on the name field, not the sid or age.
 - You may use Comparable or Comparator to define the sorting logic.
 - Preserve each Student object's sid and age while sorting.
+
+---------------------------------------------------------------------------------------------------------------------
+
+14. Question: Batman List Sorting
+
+Design a class named Batman with the following attributes:
+- name
+- strikeRate
+- noOfHundreds
+
+Create a Test class and perform the following operations:
+
+Requirements:
+1. Create a Batman class with name, strikeRate, and noOfHundreds attributes.
+2. Create a List containing 5 Batman objects.
+3. Display all Batman objects in ascending order of their strikeRate.
+4. Display the details of all Batman objects before and after sorting.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Batman details:
+Virat, 95.5, 80
+Rohit, 92.0, 50
+Sachin, 86.2, 100
+Gill, 98.5, 10
+Dhoni, 87.5, 10
+
+Expected Output:
+Display all Batman objects sorted in ascending order of strikeRate:
+Sachin, 86.2, 100
+Dhoni, 87.5, 10
+Rohit, 92.0, 50
+Virat, 95.5, 80
+Gill, 98.5, 10
+
+Test Case 2:
+Input:
+Batman details:
+PlayerA, 75.0, 5
+PlayerB, 60.5, 2
+PlayerC, 88.0, 15
+PlayerD, 70.0, 8
+PlayerE, 55.5, 1
+
+Expected Output:
+Display all Batman objects sorted in ascending order of strikeRate:
+PlayerE, 55.5, 1
+PlayerB, 60.5, 2
+PlayerD, 70.0, 8
+PlayerA, 75.0, 5
+PlayerC, 88.0, 15
+
+Note:
+- Use a List to store the Batman objects.
+- Sort the objects based on strikeRate in ascending order.
+- You may use Comparable or Comparator to implement the sorting logic.
