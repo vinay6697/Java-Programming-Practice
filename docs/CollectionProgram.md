@@ -420,4 +420,59 @@ Display an appropriate message indicating that no Shoe object with pid 110 exist
 
 Note:
 - The pid is unique for each Shoe object.
-- The method must return the updated ArrayList.
+- The method must return the updated LinkedList.
+
+---------------------------------------------------------------------------------------------------------------------
+13 Question: Student LinkedList Sorting
+
+Design a class named Student with the following attributes:
+- sid
+- name
+- age
+
+Create a Test class that contains a LinkedList of 5 Student objects.
+
+Design a method that accepts a LinkedList of Student objects and sorts the Student objects in ascending alphabetical order based on their names.
+
+Requirements:
+1. Create a Student class with sid, name, and age attributes.
+2. Create a LinkedList containing 5 Student objects.
+3. Pass the LinkedList to a method that sorts the Student objects based on their names in ascending alphabetical order.
+4. Return the sorted LinkedList from the method.
+5. Display the Student objects before and after sorting.
+
+Test Cases:
+
+Test Case 1:
+Input Student Names:
+Rahul, Arjun, Priya, Kiran, Sneha
+
+Expected Output:
+Arjun, Kiran, Priya, Rahul, Sneha
+
+Test Case 2:
+Input Student Names:
+Zoya, Aman, Bhavya, Deepak, Charan
+
+Expected Output:
+Aman, Bhavya, Charan, Deepak, Zoya
+
+Test Case 3:
+Input Student Names:
+Meena, Anil, Meena, Karthik, Bala
+
+Expected Output:
+Anil, Bala, Karthik, Meena, Meena
+
+Test Case 4:
+Input Student Names:
+Vijay, vijay, Ajay, ajay, Rohan
+
+Expected Output:
+Sort the Student objects alphabetically by name, using a consistent case-sensitive or case-insensitive ordering.
+
+Note:
+- Use LinkedList to store the Student objects.
+- Sort the objects based on the name field, not the sid or age.
+- You may use Comparable or Comparator to define the sorting logic.
+- Preserve each Student object's sid and age while sorting.
