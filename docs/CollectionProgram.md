@@ -322,3 +322,41 @@ salary = 45000
 Expected Output:
 Employee not found.
 ---------------------------------------------------------------------------------------------------------------------
+11 Question: Employee LinkedList Removal
+
+Design a class named Employee with the following attributes:
+- id
+- name
+- salary
+
+Create a Test class that contains an LinkedList of 6 Employee objects.
+
+Design a method that accepts an LinkedList of Employee objects and an employee ID entered by the user. The method should remove the employee with the specified ID.
+
+Requirements:
+1. Create an Employee class with id, name, and salary attributes.
+2. Create an LinkedList containing 6 Employee objects.
+3. Accept an employee ID from the user.
+4. Pass the LinkedList and employee ID to a method and remove the matching employee.
+5. Display the remaining employees. If no employee matches the given ID, display an appropriate message.
+6. Ensure that removing an employee does not cause ConcurrentModificationException.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Employee ID: 103
+
+Expected Output:
+Remove the employee with ID 103 and display the remaining employees.
+
+Test Case 2:
+Input:
+Employee ID: 110
+
+Expected Output:
+Display an appropriate message indicating that no employee with ID 110 exists.
+
+Note:
+- The employee ID is unique.
+---------------------------------------------------------------------------------------------------------------------
