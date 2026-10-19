@@ -683,3 +683,53 @@ Note:
 - Duplicate elements must be stored only once.
 - Print the elements in reverse insertion order.
 
+---------------------------------------------------------------------------------------------------------------------
+ 4 : Add and Display Unique Words
+
+Write a Java program to read a sentence from the user and store each word in a LinkedHashSet<String>. Display the unique words in the order they appeared in the sentence.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Java is easy and Java is powerful
+
+Expected Output:
+Original sentence:
+Java is easy and Java is powerful
+
+Unique words in insertion order:
+[Java, is, easy, and, powerful]
+
+Test Case 2:
+Input:
+apple banana apple orange banana mango
+
+Expected Output:
+Original sentence:
+apple banana apple orange banana mango
+
+Unique words in insertion order:
+[apple, banana, orange, mango]
+
+Test Case 3:
+Input:
+cat dog cat bird dog fish
+
+Expected Output:
+Original sentence:
+cat dog cat bird dog fish
+
+Unique words in insertion order:
+[cat, dog, bird, fish]
+
+Note:
+- Use LinkedHashSet<String> to store the words.
+- Read the complete sentence from the user.
+- Split the sentence into individual words.
+- Store each word in the LinkedHashSet.
+- Duplicate words must appear only once.
+- Preserve the original order of the first occurrence of each word.
+- Treat uppercase and lowercase words as different.
+
+
