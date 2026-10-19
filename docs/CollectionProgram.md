@@ -535,3 +535,69 @@ Note:
 - Use a List to store the Batman objects.
 - Sort the objects based on strikeRate in ascending order.
 - You may use Comparable or Comparator to implement the sorting logic.
+
+---------------------------------------------------------------------------------------------------------------------
+Collection Framework in SET interface
+====================================================================
+1 : Find Common Elements Between Two LinkedHashSet Objects
+
+Write a Java program to find the common elements between two LinkedHashSet<String> objects.
+
+Create a Test class and perform the following operations:
+
+Requirements:
+1. Create two LinkedHashSet<String> objects.
+2. Insert multiple String elements into both LinkedHashSet objects.
+3. Write a method named findCommonElements() that accepts two LinkedHashSet<String> objects as parameters.
+4. Find and return the common elements present in both sets.
+5. Store the common elements in a new LinkedHashSet<String>.
+6. Display both original sets and the common elements.
+7. Maintain the insertion order of the common elements according to the first LinkedHashSet.
+8. Do not modify the original sets.
+
+Test Cases:
+
+Test Case 1:
+Input:
+set1 = [Java, Python, C, JavaScript]
+set2 = [Python, JavaScript, Ruby, C]
+
+Expected Output:
+First LinkedHashSet:
+[Java, Python, C, JavaScript]
+
+Second LinkedHashSet:
+[Python, JavaScript, Ruby, C]
+
+Common elements:
+[Python, C, JavaScript]
+
+Test Case 2:
+Input:
+set1 = [Java, Python, C]
+set2 = [Ruby, PHP, JavaScript]
+
+Expected Output:
+First LinkedHashSet:
+[Java, Python, C]
+
+Second LinkedHashSet:
+[Ruby, PHP, JavaScript]
+
+Common elements:
+[]
+
+Test Case 3:
+Input:
+set1 = [Apple, Banana, Mango, Orange]
+set2 = [Mango, Apple, Orange, Grapes]
+
+Expected Output:
+First LinkedHashSet:
+[Apple, Banana, Mango, Orange]
+
+Second LinkedHashSet:
+[Mango, Apple, Orange, Grapes]
+
+Common elements:
+[Apple, Mango, Orange]
