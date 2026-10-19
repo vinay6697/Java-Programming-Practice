@@ -732,4 +732,137 @@ Note:
 - Preserve the original order of the first occurrence of each word.
 - Treat uppercase and lowercase words as different.
 
+---------------------------------------------------------------------------------------------------------------------
 
+5 Add and Display Car Objects in a TreeSet
+
+Write a Java program to store Car objects in a TreeSet<Car> and display the cars in ascending order of their cost. The Car class must implement Comparable<Car> to define the natural ordering based on cost.
+
+Test Cases:
+
+Test Case 1:
+Input:
+5
+500000
+200000
+800000
+300000
+600000
+
+Expected Output:
+Cars sorted by cost:
+[cost=200000, cost=300000, cost=500000, cost=600000, cost=800000]
+
+Test Case 2:
+Input:
+4
+300000
+100000
+300000
+200000
+
+Expected Output:
+Cars sorted by cost:
+[cost=100000, cost=200000, cost=300000]
+
+Test Case 3:
+Input:
+3
+500000
+500000
+500000
+
+Expected Output:
+Cars sorted by cost:
+[cost=500000]
+
+Test Case 4:
+Input:
+5
+900000
+100000
+700000
+200000
+400000
+
+Expected Output:
+Cars sorted by cost:
+[cost=100000, cost=200000, cost=400000, cost=700000, cost=900000]
+
+
+---------------------------------------------------------------------------------------------------------------------
+6 Add and Display Student Objects Sorted by Name
+
+Write a Java program to store Student objects in a TreeSet<Student> and display the students in ascending alphabetical order of their names. The Student class must implement Comparable<Student> to define the natural ordering based on the name.
+
+Test Cases:
+
+Test Case 1:
+Input:
+5
+101
+Vinay
+102
+Sanjay
+103
+Anu
+104
+Rahul
+105
+Kiran
+
+Expected Output:
+Students sorted by name:
+[103 Anu, 105 Kiran, 102 Sanjay, 101 Vinay, 104 Rahul]
+
+Test Case 2:
+Input:
+4
+201
+Ravi
+202
+Amit
+203
+Priya
+204
+Neha
+
+Expected Output:
+Students sorted by name:
+[202 Amit, 204 Neha, 203 Priya, 201 Ravi]
+
+Test Case 3:
+Input:
+4
+301
+Rahul
+302
+Amit
+303
+Rahul
+304
+Sneha
+
+Expected Output:
+Students sorted by name:
+[302 Amit, 301 Rahul, 304 Sneha]
+
+Test Case 4:
+Input:
+5
+401
+Zoya
+402
+Arun
+403
+Meena
+404
+Bharath
+405
+Deepak
+
+Expected Output:
+Students sorted by name:
+[402 Arun, 404 Bharath, 405 Deepak, 403 Meena, 401 Zoya]
+
+---------------------------------------------------------------------------------------------------------------------
