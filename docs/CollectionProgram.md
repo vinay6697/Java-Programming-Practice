@@ -539,65 +539,147 @@ Note:
 ---------------------------------------------------------------------------------------------------------------------
 Collection Framework in SET interface
 ====================================================================
-1 : Find Common Elements Between Two LinkedHashSet Objects
-
-Write a Java program to find the common elements between two LinkedHashSet<String> objects.
-
-Create a Test class and perform the following operations:
-
-Requirements:
-1. Create two LinkedHashSet<String> objects.
-2. Insert multiple String elements into both LinkedHashSet objects.
-3. Write a method named findCommonElements() that accepts two LinkedHashSet<String> objects as parameters.
-4. Find and return the common elements present in both sets.
-5. Store the common elements in a new LinkedHashSet<String>.
-6. Display both original sets and the common elements.
-7. Maintain the insertion order of the common elements according to the first LinkedHashSet.
-8. Do not modify the original sets.
+1 : Write a Java program to find the common elements between two LinkedHashSet<Integer> objects.
 
 Test Cases:
 
 Test Case 1:
 Input:
-set1 = [Java, Python, C, JavaScript]
-set2 = [Python, JavaScript, Ruby, C]
-
-Expected Output:
 First LinkedHashSet:
-[Java, Python, C, JavaScript]
+[10, 20, 30, 40, 50]
 
 Second LinkedHashSet:
-[Python, JavaScript, Ruby, C]
+[30, 40, 50, 60, 70]
 
+Expected Output:
 Common elements:
-[Python, C, JavaScript]
+[30, 40, 50]
 
 Test Case 2:
 Input:
-set1 = [Java, Python, C]
-set2 = [Ruby, PHP, JavaScript]
-
-Expected Output:
 First LinkedHashSet:
-[Java, Python, C]
+[5, 10, 15, 20, 25]
 
 Second LinkedHashSet:
-[Ruby, PHP, JavaScript]
+[1, 2, 3, 4, 5]
 
+Expected Output:
 Common elements:
-[]
+[5]
 
 Test Case 3:
 Input:
-set1 = [Apple, Banana, Mango, Orange]
-set2 = [Mango, Apple, Orange, Grapes]
-
-Expected Output:
 First LinkedHashSet:
-[Apple, Banana, Mango, Orange]
+[100, 200, 300, 400, 500]
 
 Second LinkedHashSet:
-[Mango, Apple, Orange, Grapes]
+[10, 20, 30, 40, 50]
 
-Common elements:
-[Apple, Mango, Orange]
+Expected Output:
+No common elements found
+
+Note:
+- Use LinkedHashSet<Integer> to store the elements.
+- Create a method named findCommonElements() that accepts two LinkedHashSet<Integer> objects and returns a LinkedHashSet<Integer>.
+- Preserve the insertion order of common elements according to the first set.
+- Do not modify the original sets.
+- Display an appropriate message when no common elements are found.
+
+---------------------------------------------------------------------------------------------------------------------
+2 : Preserve Order of Characters
+
+Given a String with duplicate characters, write a Java program to remove duplicate characters using LinkedHashSet while preserving their original order.
+
+Example:
+Input:
+banana
+
+Expected Output:
+Original String: banana
+String after removing duplicates: ban
+
+Test Cases:
+
+Test Case 1:
+Input:
+banana
+
+Expected Output:
+Original String: banana
+String after removing duplicates: ban
+
+Test Case 2:
+Input:
+programming
+
+Expected Output:
+Original String: programming
+String after removing duplicates: progamin
+
+Test Case 3:
+Input:
+hello world
+
+Expected Output:
+Original String: hello world
+String after removing duplicates: helo wrd
+
+Note:
+- Use LinkedHashSet<Character> to store unique characters.
+- Preserve the original insertion order of characters.
+- Treat uppercase and lowercase characters as different.
+- Preserve spaces and other characters.
+- Do not use HashSet.
+- Implement the logic using a loop.
+
+---------------------------------------------------------------------------------------------------------------------
+3 : Reverse Order with LinkedHashSet
+
+Write a Java program to store integer elements in a LinkedHashSet and print the elements in reverse insertion order without using List.
+
+Test Cases:
+
+Test Case 1:
+Input:
+LinkedHashSet:
+[10, 20, 30, 40, 50]
+
+Expected Output:
+Elements in insertion order:
+[10, 20, 30, 40, 50]
+
+Elements in reverse insertion order:
+[50, 40, 30, 20, 10]
+
+Test Case 2:
+Input:
+LinkedHashSet:
+[5, 15, 25, 35, 45]
+
+Expected Output:
+Elements in insertion order:
+[5, 15, 25, 35, 45]
+
+Elements in reverse insertion order:
+[45, 35, 25, 15, 5]
+
+Test Case 3:
+Input:
+LinkedHashSet:
+[100, 200, 300, 200, 400]
+
+Expected Output:
+Elements in insertion order:
+[100, 200, 300, 400]
+
+Elements in reverse insertion order:
+[400, 300, 200, 100]
+
+Note:
+- Use LinkedHashSet<Integer> to store the elements.
+- Do not use List, ArrayList, or LinkedList.
+- Do not insert the elements into another collection just to reverse their order.
+- Preserve the original insertion order in the LinkedHashSet.
+- Duplicate elements must be stored only once.
+- Print the elements in reverse insertion order.
+
