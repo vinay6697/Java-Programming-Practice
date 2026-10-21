@@ -34,6 +34,7 @@ public class StudentDriver {
 		{
 			System.out.println(student);
 		}
+		sc.close();
 	}
 
 }
