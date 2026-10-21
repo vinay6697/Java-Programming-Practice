@@ -946,3 +946,218 @@ Employees sorted by salary:
 ]
 
 ---------------------------------------------------------------------------------------------------------------------
+8. Question: Sort Student Objects Using Comparator
+
+Write a Java program to store Student objects in a TreeSet<Student> and allow the user to choose the sorting criteria at runtime.
+
+The Student class contains the following attributes:
+- int age
+- String name
+
+The Student class must not implement Comparable. Instead, create separate Comparator implementations to define the sorting logic.
+
+Requirements:
+1. Read the number of students from the user.
+2. Read the age and name of each student.
+3. Display a menu asking the user to choose the sorting criteria:
+   1. Sort by Age in Ascending Order
+   2. Sort by Name in Alphabetical Order
+4. Use the selected Comparator to create the TreeSet<Student>.
+5. Display the students in the selected sorting order.
+
+Test Cases:
+
+Test Case 1: Sort by Age
+
+Input:
+5
+21 Vinay
+19 Rahul
+23 Sneha
+20 Priya
+22 Arun
+1
+
+Expected Output:
+Students sorted by age:
+19 Rahul
+20 Priya
+21 Vinay
+22 Arun
+23 Sneha
+
+
+Test Case 2: Sort by Name
+
+Input:
+5
+21 Vinay
+19 Rahul
+23 Sneha
+20 Priya
+22 Arun
+2
+
+Expected Output:
+Students sorted by name:
+22 Arun
+20 Priya
+19 Rahul
+23 Sneha
+21 Vinay
+
+
+Test Case 3: Students with the Same Age
+
+Input:
+4
+20 Vinay
+18 Rahul
+20 Sneha
+19 Priya
+1
+
+Expected Output:
+Students sorted by age:
+18 Rahul
+19 Priya
+20 Sneha
+20 Vinay
+
+
+Test Case 4: Students with Names in Alphabetical Order Already
+
+Input:
+3
+18 Arun
+20 Priya
+22 Vinay
+2
+
+Expected Output:
+Students sorted by name:
+18 Arun
+20 Priya
+22 Vinay
+
+
+Test Case 5: Invalid Choice
+
+Input:
+2
+20 Vinay
+21 Rahul
+5
+
+Expected Output:
+Invalid sorting choice!
+---------------------------------------------------------------------------------------------------------------------
+9. Question: Sort Employee Objects Using Comparator
+
+Write a Java program to store Employee objects in a TreeSet<Employee> and allow the user to choose the sorting criteria at runtime.
+
+The Employee class contains the following attributes:
+- int id
+- String name
+- Double salary
+
+The Employee class must not implement Comparable<Employee>. Instead, create separate Comparator<Employee> implementations to define the sorting logic.
+
+Requirements:
+1. Read the number of employees from the user.
+2. Read the ID, name, and salary of each employee.
+3. Display a menu asking the user to choose the sorting criteria:
+   1. Sort by Name in Alphabetical Order
+   2. Sort by Salary in Ascending Order
+4. Use the selected Comparator to create the TreeSet<Employee>.
+5. Display the employees in the selected sorting order.
+
+Test Cases:
+
+Test Case 1: Sort by Name
+
+Input:
+5
+101 Vinay 50000
+102 Rahul 30000
+103 Sneha 70000
+104 Priya 20000
+105 Arun 40000
+1
+
+Expected Output:
+Employees sorted by name:
+105 Arun 40000.0
+102 Rahul 30000.0
+104 Priya 20000.0
+103 Sneha 70000.0
+101 Vinay 50000.0
+
+
+Test Case 2: Sort by Salary
+
+Input:
+5
+101 Vinay 50000
+102 Rahul 30000
+103 Sneha 70000
+104 Priya 20000
+105 Arun 40000
+2
+
+Expected Output:
+Employees sorted by salary:
+104 Priya 20000.0
+102 Rahul 30000.0
+105 Arun 40000.0
+101 Vinay 50000.0
+103 Sneha 70000.0
+
+
+Test Case 3: Two Employees with the Same Salary
+
+Input:
+4
+101 Vinay 30000
+102 Rahul 20000
+103 Sneha 30000
+104 Priya 40000
+2
+
+Expected Output:
+Employees sorted by salary:
+102 Rahul 20000.0
+101 Vinay 30000.0
+103 Sneha 30000.0
+104 Priya 40000.0
+
+
+Test Case 4: Two Employees with the Same Name
+
+Input:
+4
+101 Rahul 50000
+102 Vinay 30000
+103 Rahul 40000
+104 Arun 20000
+1
+
+Expected Output:
+Employees sorted by name:
+104 Arun 20000.0
+101 Rahul 50000.0
+103 Rahul 40000.0
+102 Vinay 30000.0
+
+
+Test Case 5: Invalid Sorting Choice
+
+Input:
+2
+101 Vinay 50000
+102 Rahul 30000
+5
+
+Expected Output:
+Invalid sorting choice!
+

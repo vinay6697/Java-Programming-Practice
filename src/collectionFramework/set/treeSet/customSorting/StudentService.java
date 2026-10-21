@@ -22,7 +22,7 @@ public class StudentService {
 			}
 			default:
 			{
-				throw new IllegalArgumentException("Invalid choice");
+				throw new IllegalArgumentException("Invalid Sorting choice");
 			}
 		}
 		return students;

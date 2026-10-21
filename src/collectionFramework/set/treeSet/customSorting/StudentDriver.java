@@ -9,8 +9,8 @@ public class StudentDriver {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("1. Sort by Name");
-		System.out.println("2. Sort by Age");
+		System.out.println("1. Sort by Age in Ascending Order");
+		System.out.println("2. Sort by Name in Alphabetical Order");
 		System.out.print("Enter your choice: ");
 
 		int choice = sc.nextInt();
