@@ -1,4 +1,4 @@
-package collectionFramework.list.treeSet;
+package collectionFramework.set.treeSet;
 
 public class Car implements Comparable<Car>{
 	int cost;

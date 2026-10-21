@@ -866,3 +866,83 @@ Students sorted by name:
 [402 Arun, 404 Bharath, 405 Deepak, 403 Meena, 401 Zoya]
 
 ---------------------------------------------------------------------------------------------------------------------
+7.  Write a Java program to store Employee objects in a TreeSet<Employee> and display the employees in ascending order of their salary. The Employee class must implement Comparable<Employee> to define the natural ordering based on salary.
+
+Each Employee object contains the following attributes:
+
+int id
+
+String name
+
+double salary
+
+Note: If two employees have the same salary, the TreeSet should treat them as duplicates and store only one employee.
+
+Test Cases:
+
+Test Case 1:
+Input:
+5
+101 Vinay 50000
+102 Rahul 30000
+103 Sneha 70000
+104 Priya 20000
+105 Arun 40000
+
+Expected Output:
+Employees sorted by salary:
+[ Employee{id=104, name='Priya', salary=20000.0}, 
+  Employee{id=102, name='Rahul', salary=30000.0}, 
+  Employee{id=105, name='Arun', salary=40000.0}, 
+  Employee{id=101, name='Vinay', salary=50000.0}, 
+  Employee{id=103, name='Sneha', salary=70000.0}
+]
+
+
+Test Case 2:
+Input:
+4
+101 Vinay 30000
+102 Rahul 10000
+103 Sneha 30000
+104 Priya 20000
+
+Expected Output:
+Employees sorted by salary:
+[ Employee{id=102, name='Rahul', salary=10000.0},
+  Employee{id=104, name='Priya', salary=20000.0}, 
+  Employee{id=101, name='Vinay', salary=30000.0}
+]
+
+
+Test Case 3:
+Input:
+3
+101 Vinay 50000
+102 Rahul 50000
+103 Sneha 50000
+
+Expected Output:
+Employees sorted by salary:
+[Employee{id=101, name='Vinay', salary=50000.0}]
+
+
+Test Case 4:
+Input:
+5
+101 Vinay 90000
+102 Rahul 10000
+103 Sneha 70000
+104 Priya 20000
+105 Arun 40000
+
+Expected Output:
+Employees sorted by salary:
+[ Employee{id=102, name='Rahul', salary=10000.0},  
+  Employee{id=104, name='Priya', salary=20000.0}, 
+  Employee{id=105, name='Arun', salary=40000.0}, 
+  Employee{id=103, name='Sneha', salary=70000.0}, 
+  Employee{id=101, name='Vinay', salary=90000.0}
+]
+
+---------------------------------------------------------------------------------------------------------------------
