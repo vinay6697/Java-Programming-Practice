@@ -192,6 +192,7 @@ Use entrySet() and Iterator<Map.Entry<Passport, String>> to traverse the entries
 ---------------------------------------------------------------------------------------------------------------------
 
 LinkedHashMap Questions
+----------------------------------------------------------------------------------------------------------------------
 
 1) Question: Store Student Objects in a TreeMap
 
@@ -266,4 +267,120 @@ Student Details:
 
 Note:
 Use TreeMap<Integer, Student> to store Student objects. TreeMap automatically sorts entries by the integer keys in ascending order. If the same roll number is inserted more than once, the latest Student value replaces the previous value for that key.
+---------------------------------------------------------------------------------------------------------------------
+
+2. Question: Display TreeMap Entries in Descending Key Order
+
+Write a Java program to create a TreeMap<Integer, String> to store course codes as keys and course names as values.
+
+Requirements:
+
+1. Create a TreeMap<Integer, String>.
+2. Insert course codes and their corresponding course names dynamically using Scanner.
+3. Use descendingKeySet() to retrieve the keys in descending order.
+4. Use an enhanced for-each loop to display each key and its corresponding value.
+5. Display the entire TreeMap in descending order using descendingMap().
+6. Do not use Collections.reverse() or copy the entries into a List.
+
+Test Case 1: Course Codes Inserted in Ascending Order
+
+Input:
+5
+111 JAVA
+222 SQL
+333 WEB
+444 ADV_JAVA
+555 PROGRAMMING
+
+Expected Output:
+Entries in Descending Key Order:
+555 ==> PROGRAMMING
+444 ==> ADV_JAVA
+333 ==> WEB
+222 ==> SQL
+111 ==> JAVA
+
+TreeMap in Descending Order:
+{555=PROGRAMMING, 444=ADV_JAVA, 333=WEB, 222=SQL, 111=JAVA}
+
+
+Test Case 2: Course Codes Inserted in Descending Order
+
+Input:
+4
+500 PYTHON
+400 JAVA
+300 SQL
+200 HTML
+
+Expected Output:
+Entries in Descending Key Order:
+500 ==> PYTHON
+400 ==> JAVA
+300 ==> SQL
+200 ==> HTML
+
+TreeMap in Descending Order:
+{500=PYTHON, 400=JAVA, 300=SQL, 200=HTML}
+
+
+Test Case 3: Course Codes Inserted in Random Order
+
+Input:
+5
+333 WEB
+111 JAVA
+555 PROGRAMMING
+222 SQL
+444 ADV_JAVA
+
+Expected Output:
+Entries in Descending Key Order:
+555 ==> PROGRAMMING
+444 ==> ADV_JAVA
+333 ==> WEB
+222 ==> SQL
+111 ==> JAVA
+
+TreeMap in Descending Order:
+{555=PROGRAMMING, 444=ADV_JAVA, 333=WEB, 222=SQL, 111=JAVA}
+
+
+Test Case 4: Non-Consecutive Keys
+
+Input:
+4
+850 SPRING
+120 HIBERNATE
+650 JDBC
+250 SERVLETS
+
+Expected Output:
+Entries in Descending Key Order:
+850 ==> SPRING
+650 ==> JDBC
+250 ==> SERVLETS
+120 ==> HIBERNATE
+
+TreeMap in Descending Order:
+{850=SPRING, 650=JDBC, 250=SERVLETS, 120=HIBERNATE}
+
+
+Test Case 5: Duplicate Keys
+
+Input:
+4
+111 JAVA
+222 SQL
+111 CORE_JAVA
+333 WEB
+
+Expected Output:
+Entries in Descending Key Order:
+333 ==> WEB
+222 ==> SQL
+111 ==> CORE_JAVA
+
+TreeMap in Descending Order:
+{333=WEB, 222=SQL, 111=CORE_JAVA}
 ---------------------------------------------------------------------------------------------------------------------
