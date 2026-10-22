@@ -1,4 +1,4 @@
-package collectionFramework.set.treeSet;
+package collectionFramework.set.treeSet.defaultSorting;
 import java.util.TreeSet;
 
 public class SortBook {

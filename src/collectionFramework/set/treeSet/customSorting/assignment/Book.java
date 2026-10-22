@@ -1,4 +1,4 @@
-package collectionFramework.set.treeSet.customSorting.comparator;
+package collectionFramework.set.treeSet.customSorting.assignment;
 
 public class Book {
 		String title;

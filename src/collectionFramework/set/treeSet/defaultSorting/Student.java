@@ -1,4 +1,4 @@
-package collectionFramework.set.treeSet;
+package collectionFramework.set.treeSet.defaultSorting;
 
 public class Student implements Comparable<Student>{
 	int id;

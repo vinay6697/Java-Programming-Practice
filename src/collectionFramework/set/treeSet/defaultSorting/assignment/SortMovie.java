@@ -1,4 +1,4 @@
-package collectionFramework.set.treeSet.treeset_assignment;
+package collectionFramework.set.treeSet.defaultSorting.assignment;
 
 import java.util.TreeSet;
 

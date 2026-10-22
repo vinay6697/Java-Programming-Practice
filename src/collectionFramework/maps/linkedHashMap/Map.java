@@ -1,5 +1,6 @@
 package collectionFramework.maps.linkedHashMap;
 
+import java.util.Collection;
 import java.util.HashMap;
 
 public class Map {
@@ -38,9 +39,15 @@ public class Map {
 		System.out.println("----------------------");
 		
 		System.out.println(hm.isEmpty());
-		hm.clear();
+//		hm.clear();
 		System.out.println(hm.isEmpty());
-		System.out.println("----------------------");
+		System.out.println("----------------1234------");
+		
+		Collection<String> c = hm.values();
+		for(String s:c)
+		{
+			System.out.println(s);
+		}
 
 	}
 }

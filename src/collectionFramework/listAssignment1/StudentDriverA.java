@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class StudentDriverA {
 	public static void main(String[] args) {
-		ArrayList students=new ArrayList();
+		ArrayList<Object> students=new ArrayList<>();
 		students.add(new Student("Smith",10,64));
 		students.add(new Student("Allen",11,95));
 		students.add(new Student("Martin",10,97));

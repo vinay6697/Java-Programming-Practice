@@ -1,4 +1,4 @@
-package collectionFramework.set.treeSet.treeset_assignment;
+package collectionFramework.set.treeSet.defaultSorting.assignment;
 
 public class Student implements Comparable<Student>{
 	String name;
