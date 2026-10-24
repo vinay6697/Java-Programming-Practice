@@ -1,4 +1,5 @@
 HashMap Questions
+------------------------------------------------------------------------------------------------------------------------
  1.  Store Person Objects as Keys in a HashMap
 
 Create a Person class with the following properties:
