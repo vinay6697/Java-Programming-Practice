@@ -93,6 +93,7 @@ Output: 30 20 10
 Test Case 3:
 Input: 7 14 21 28
 Output: 28 21 14 7
+
 --------------------------------------------------------------------------------------------------------------
 
 6. Simulate Browser Forward and Back Navigation
@@ -160,6 +161,7 @@ No forward page available
 Current Page: oracle.com
 
 --------------------------------------------------------------------------------------------------------------
+
 Priority queue Questions
 
 1. Display Elements in Priority Order
@@ -220,6 +222,7 @@ Input:
 
 Output:
 1 3 6 8 12
+
 --------------------------------------------------------------------------------------------------------------
 
 3.Write a Java program to create a PriorityQueue of strings. Read a set of strings from the user, insert them into the queue, and display the 	strings in the order in which they are removed from the queue.
@@ -258,6 +261,7 @@ apple
 banana
 cherry
 mango
+
 --------------------------------------------------------------------------------------------------------------
 4.Write a Java program to create a PriorityQueue of integers. Read integers from the user and insert them into the queue. Use peek() to retrieve  	and display the head element without removing it. Display the queue's head element again to demonstrate that peek() does not remove the 	element.
 
@@ -289,7 +293,9 @@ Input:
 Output:
 Head element: 1
 Head element after peek(): 1
+
 --------------------------------------------------------------------------------------------------------------
+
 5.Write a Java program to create a PriorityQueue of integers using a custom Comparator that gives the largest element the highest priority. Insert integers into the queue and display them in descending order without removing any elements from the original PriorityQueue.
 
 Test Case 1:
@@ -315,7 +321,9 @@ Input:
 
 Output:
 100 75 50 25 10
+
 --------------------------------------------------------------------------------------------------------------
+
 11. Task and TaskDriver
 Create a Task class with the fields name and priority. Write a Java program that uses a PriorityQueue<Task> with a custom Comparator to process the highest-priority task first, where a lower priority number represents a higher priority. Read task details from the user, insert the tasks into the queue, and process them in priority order.
 
