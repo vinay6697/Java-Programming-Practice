@@ -2,17 +2,18 @@ package collectionFramework.queue.priorityQueue;
 
 import java.util.PriorityQueue;
 
-public class Program6 {
+public class Program2 {
 	public static void main(String[] args) {
 		PriorityQueue<Integer> pq=new PriorityQueue<Integer>();
-		pq.add(10);
+		pq.add(100);
+		pq.add(50);
 		pq.add(20);
-		pq.add(15);
-		pq.add(5);
-		pq.add(30);
+		pq.add(70);
+		pq.add(10);
 		
-		while(!pq.isEmpty()) {
-			System.out.println(pq.poll());
+		while(!pq.isEmpty())
+		{
+			System.out.println(pq.remove());
 		}
 	}
 }

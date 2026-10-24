@@ -2,7 +2,7 @@ package collectionFramework.queue.priorityQueue;
 
 import java.util.PriorityQueue;
 
-public class Program8 {
+public class Program3 {
 	public static void main(String[] args) {
 		PriorityQueue<String> pq=new PriorityQueue<String>();
 		pq.add("apple");
