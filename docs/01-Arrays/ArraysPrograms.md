@@ -622,3 +622,60 @@ Test Cases:
    Second minimum element does not exist
 
 ---------------------------------------------------------------------------------------------
+16. Print Prime Elements in an Array
+
+Question:
+Write a Java program to read an array of integers and print all the prime numbers present in the array. A prime number is a number greater than 1 that has exactly two distinct positive factors: 1 and itself. If the array does not contain any prime numbers, display an appropriate message.
+
+Explanation:
+Traverse the array and check each element to determine whether it is a prime number. If the element is prime, print it. A number less than or equal to 1 is not prime. To check whether a number is prime, test whether it is divisible by any integer from 2 up to its square root. If a divisor is found, the number is not prime; otherwise, it is prime. If no prime numbers are found in the array, display an appropriate message.
+
+Example Input:
+[10, 3, 7, 8, 11, 15, 13]
+
+Expected Output:
+Prime elements are:
+3
+7
+11
+13
+
+Test Cases:
+
+1. Input: [2, 3, 4, 5, 6, 7]
+   Expected Output:
+   Prime elements are:
+   2
+   3
+   5
+   7
+
+2. Input: [0, 1, -3, -5, 2, 3, 4]
+   Expected Output:
+   Prime elements are:
+   2
+   3
+
+3. Input: [4, 6, 8, 9, 10, 12]
+   Expected Output:
+   No prime elements found
+
+4. Input: [17, 19, 23, 29, 31]
+   Expected Output:
+   Prime elements are:
+   17
+   19
+   23
+   29
+   31
+
+5. Input: [2, 2, 3, 4, 5, 5, 9]
+   Expected Output:
+   Prime elements are:
+   2
+   2
+   3
+   5
+   5
+
+---------------------------------------------------------------------------------------------
