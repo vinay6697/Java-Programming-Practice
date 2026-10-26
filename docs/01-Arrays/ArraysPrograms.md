@@ -444,3 +444,181 @@ Test Cases:
 
 6. Input: []
    Expected Output: No results
+
+---------------------------------------------------------------------------------------------
+
+12. First Maximum Element in an Array
+
+Question:
+Write a Java program to find the first maximum element in a given array. If the maximum element appears more than once, consider its first occurrence.
+
+Explanation:
+Traverse the array and compare each element with the current maximum element. Update the maximum whenever a larger element is found. The final maximum value is the first maximum element in the array.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+First maximum element is: 40
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   First maximum element is: 40
+
+2. Input: [50, 20, 30, 10, 40]
+   Expected Output:
+   First maximum element is: 50
+
+3. Input: [10, 20, 30, 40, 50]
+   Expected Output:
+   First maximum element is: 50
+
+4. Input: [10, 50, 20, 50, 30, 50]
+   Expected Output:
+   First maximum element is: 50
+
+5. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   First maximum element is: -3
+
+6. Input: [7, 7, 7, 7]
+   Expected Output:
+   First maximum element is: 7
+
+7. Input: [25]
+   Expected Output:
+   First maximum element is: 25
+
+8. Input: []
+   Expected Output:
+   No results
+
+---------------------------------------------------------------------------------------------
+
+13. First Minimum Element in an Array
+
+Question:
+Write a Java program to find the first minimum element in a given array. If the minimum element appears more than once, consider its first occurrence.
+
+Explanation:
+Traverse the array and compare each element with the current minimum element. Update the minimum whenever a smaller element is found. The final minimum value is the first minimum element in the array.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+First minimum element is: 7
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   First minimum element is: 7
+
+2. Input: [-20, 10, 30, 40, 50]
+   Expected Output:
+   First minimum element is: -20
+
+3. Input: [10, 20, 30, 40, -50]
+   Expected Output:
+   First minimum element is: -50
+
+4. Input: [10, 5, 20, 5, 30, 5]
+   Expected Output:
+   First minimum element is: 5
+
+5. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   First minimum element is: -20
+
+6. Input: [7, 7, 7, 7]
+   Expected Output:
+   First minimum element is: 7
+
+7. Input: [25]
+   Expected Output:
+   First minimum element is: 25
+
+8. Input: []
+   Expected Output:
+   No results
+
+---------------------------------------------------------------------------------------------
+
+14. Second Maximum Element in an Array
+
+Question:
+Write a Java program to find the second maximum distinct element in a given array. If the maximum element appears more than once, consider it only once when finding the second maximum element.
+
+Explanation:
+Traverse the array and identify the largest and second-largest distinct elements. If an element is greater than the current maximum, update the second maximum with the current maximum and then update the maximum. Otherwise, if the element is smaller than the maximum but greater than the current second maximum, update the second maximum. If the array contains fewer than two distinct elements, display an appropriate message.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+Second maximum element is: 25
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   Second maximum element is: 25
+
+2. Input: [10, 50, 20, 50, 30, 50]
+   Expected Output:
+   Second maximum element is: 30
+
+3. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   Second maximum element is: -5
+
+4. Input: [7, 7, 7, 7]
+   Expected Output:
+   Second maximum element does not exist
+
+5. Input: [25]
+   Expected Output:
+   Second maximum element does not exist
+
+---------------------------------------------------------------------------------------------
+
+15. Second Minimum Element in an Array
+
+Question:
+Write a Java program to find the second minimum distinct element in a given array. If the minimum element appears more than once, consider it only once when finding the second minimum element.
+
+Explanation:
+Traverse the array and identify the smallest and second-smallest distinct elements. If an element is smaller than the current minimum, update the second minimum with the current minimum and then update the minimum. Otherwise, if an element is greater than the minimum but smaller than the current second minimum, update the second minimum. If the array contains fewer than two distinct elements, display an appropriate message.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+Second minimum element is: 10
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   Second minimum element is: 10
+
+2. Input: [10, 5, 20, 5, 30, 5]
+   Expected Output:
+   Second minimum element is: 10
+
+3. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   Second minimum element is: -15
+
+4. Input: [7, 7, 7, 7]
+   Expected Output:
+   Second minimum element does not exist
+
+5. Input: [25]
+   Expected Output:
+   Second minimum element does not exist
+
+---------------------------------------------------------------------------------------------

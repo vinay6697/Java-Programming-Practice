@@ -15,7 +15,7 @@ public class SecondMaximumNumber {
 		else
 		{
 			int fmax=ar[0];
-			int smax=0;
+			int smax=Integer.MIN_VALUE;
 			
 			for(int i=0;i<ar.length;i++)
 			{
