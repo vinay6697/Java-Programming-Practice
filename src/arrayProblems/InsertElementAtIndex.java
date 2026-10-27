@@ -15,12 +15,12 @@ public class InsertElementAtIndex {
 	}
 
 	public static void isInsert(int[] ar, int index, int element) {
-		if (ar.length == 0 || ar == null) {
+		if (ar == null || ar.length == 0) {
 			System.out.println("please insert elements into array");
-		} else {
-			if (index < 0 || index > ar.length) {
+		} 
+			if (index < 0 || index > ar.length) 
 				System.out.println("invalid index");
-			} else {
+			
 				int[] br = new int[ar.length + 1];
 				
 				for (int i = 0; i < br.length; i++) {
@@ -32,7 +32,5 @@ public class InsertElementAtIndex {
 						br[i] = ar[i - 1];
 				}
 				ArrayOperations.display(br);
-			}
-		}
 	}
 }

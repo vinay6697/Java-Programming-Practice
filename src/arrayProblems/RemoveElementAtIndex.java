@@ -15,10 +15,9 @@ public class RemoveElementAtIndex {
 	{
 		if(ar.length==0 || ar==null)
 			System.out.println("please enter the elements");
-		else if(index<0 || index> ar.length)
+		if(index<0 || index> ar.length)
 			System.out.println("invalid index");
-		else
-		{
+		
 			int[] br=new int[ar.length-1];
 			for(int i=0;i<br.length;i++)
 			{
@@ -28,7 +27,5 @@ public class RemoveElementAtIndex {
 					br[i]=ar[i+1];
 			}
 			ArrayOperations.display(br);
-		}
 	}
-
 }
