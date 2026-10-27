@@ -22,6 +22,7 @@ public class InsertElementAtIndex {
 				System.out.println("invalid index");
 			} else {
 				int[] br = new int[ar.length + 1];
+				
 				for (int i = 0; i < br.length; i++) {
 					if (i < index)
 						br[i] = ar[i];

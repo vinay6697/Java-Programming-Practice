@@ -751,4 +751,73 @@ Element: 15
 
 Expected Output:
 Invalid index
+
+---------------------------------------------------------------------------------------------
+
+18. Remove an Element at a Specified Index
+
+Question:
+Write a Java program to read an array of integers and remove the element at a specified index. Display the updated array after removing the element. If the specified index is invalid, display an appropriate error message.
+
+Explanation:
+Read the array using the reusable ArrayOperations class. Ask the user to enter the index of the element to be removed.
+
+Example Input:
+Array: [10, 20, 30, 40, 50]
+Index: 2
+
+Expected Output:
+Updated array:
+10 20 40 50
+
+Test Cases:
+
+1. Remove the First Element
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 0
+
+Expected Output:
+Updated array:
+20 30 40 50
+
+2. Remove an Element from the Middle
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 2
+
+Expected Output:
+Updated array:
+10 20 40 50
+
+3. Remove the Last Element
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 4
+
+Expected Output:
+Updated array:
+10 20 30 40
+
+4. Invalid Negative Index
+
+Input:
+Array: [10, 20, 30, 40]
+Index: -1
+
+Expected Output:
+Invalid index
+
+5. Index Equal to the Array Length
+
+Input:
+Array: [10, 20, 30, 40]
+Index: 4
+
+Expected Output:
+Invalid index
+
 ---------------------------------------------------------------------------------------------
