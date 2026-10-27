@@ -6,7 +6,7 @@ public class ArrayOperations {
 	public static int[] readArray()
 	{
 		int[] array=null;
-		try (Scanner sc = new Scanner(System.in)) {
+		Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the size of the array");
 			int size=sc.nextInt();
 			
@@ -18,13 +18,6 @@ public class ArrayOperations {
 			{
 				array[i]=sc.nextInt();
 			}
-			
-			
-		}
-		catch(Exception e)
-		{
-			e.printStackTrace();
-		}
 		return array;
 	}
 	

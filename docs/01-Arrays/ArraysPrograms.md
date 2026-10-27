@@ -679,3 +679,76 @@ Test Cases:
    5
 
 ---------------------------------------------------------------------------------------------
+
+17. Insert an Element at a Specified Index
+
+Question:
+Write a Java program to read an array of integers and insert a given element at a specified index. Display the updated array after insertion. If the specified index is invalid, display an appropriate error message.
+
+Explanation:
+Read the array using the reusable ArrayOperations class. Ask the user to enter the index at which the element should be inserted and the element to insert.
+
+Example Input:
+Array: [10, 20, 30, 40, 50]
+Index: 2
+Element: 25
+
+Expected Output:
+Updated array:
+10 20 25 30 40 50
+
+Test Cases:
+
+1. Insert at the Beginning
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 0
+Element: 5
+
+Expected Output:
+Updated array:
+5 10 20 30 40 50
+
+2. Insert in the Middle
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 2
+Element: 25
+
+Expected Output:
+Updated array:
+10 20 25 30 40 50
+
+3. Insert at the End
+
+Input:
+Array: [10, 20, 30, 40, 50]
+Index: 5
+Element: 60
+
+Expected Output:
+Updated array:
+10 20 30 40 50 60
+
+4. Invalid Negative Index
+
+Input:
+Array: [10, 20, 30, 40]
+Index: -1
+Element: 15
+
+Expected Output:
+Invalid index
+
+5. Index Greater Than the Array Length
+
+Input:
+Array: [10, 20, 30, 40]
+Index: 6
+Element: 15
+
+Expected Output:
+Invalid index
+---------------------------------------------------------------------------------------------
