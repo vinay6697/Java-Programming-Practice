@@ -23,7 +23,6 @@ public class MergeTwoArraysInZigZagOrder {
 				cr[k++]=br[j++];
 		}
 		ArrayOperations.display(cr);
-		
 	}
 
 }

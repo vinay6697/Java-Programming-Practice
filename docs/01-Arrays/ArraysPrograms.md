@@ -914,7 +914,7 @@ Expected Output:
 
 ---------------------------------------------------------------------------------------------
 
-10.	Write a Java program to read two integer arrays from the user and merge them into a single array in ZigZag manner.
+20.	Write a Java program to read two integer arrays from the user and merge them into a single array in ZigZag manner.
 
 The elements should be taken alternately from the first array and the second array, starting with the first array.
 
@@ -1010,4 +1010,58 @@ Input:
 
 Expected Output:
 -5 -8 0 6 10 0 -2
+---------------------------------------------------------------------------------------------
+21. Write a Java program to merge two sorted integer arrays into a single array in sorted ascending order.
+
+The program should take the sizes and elements of both arrays as input from the user. Both input arrays are already sorted in ascending order. Merge the two arrays into a new array such that all elements from both arrays are included and the resulting array is also sorted in ascending order.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Array 1: 10 20 30 40 50
+Array 2: 15 25 35 45 55
+Expected Output:
+10 15 20 25 30 35 40 45 50 55
+
+Test Case 2:
+Input:
+Array 1: 1 3 5 7 9
+Array 2: 2 4 6 8 10
+Expected Output:
+1 2 3 4 5 6 7 8 9 10
+
+Test Case 3:
+Input:
+Array 1: 5 10 15
+Array 2: 1 2 3 4 20 25
+Expected Output:
+1 2 3 4 5 10 15 20 25
+
+Test Case 4:
+Input:
+Array 1: -10 -5 0 5
+Array 2: -8 -3 2 7
+Expected Output:
+-10 -8 -5 -3 0 2 5 7
+
+Test Case 5:
+Input:
+Array 1: 1 2 2 5 8
+Array 2: 2 2 3 5 9
+Expected Output:
+1 2 2 2 2 3 5 5 8 9
+
+Constraints:
+1. Both arrays must be sorted in ascending order before merging.
+2. Array sizes must be greater than or equal to 0.
+3. Array elements can be positive, negative, or zero.
+4. Duplicate elements must be preserved in the merged array.
+5. The merged array must contain all elements from both input arrays, with a total size equal to the sum of their sizes.
+6. Do not use built-in sorting methods to sort the merged array.
+7. Store the result in a new array and display its elements in a single line, separated by spaces.
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
