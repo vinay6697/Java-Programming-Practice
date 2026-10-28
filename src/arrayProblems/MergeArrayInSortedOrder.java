@@ -15,21 +15,26 @@ public class MergeArrayInSortedOrder {
 		int j=0;
 		int k=0;
 		
-		while(k<cr.length)
+		while(i<ar.length && j<br.length)
 		{
-			if(i<ar.length && j<br.length)
-			{
 				if(ar[i]<br[j])
 					cr[k++]=ar[i++];
 					
 				else
 					cr[k++]=br[j++];
-			}
-			else if(i<ar.length)
-				cr[k++]=ar[i++];
-			else if(j<br.length)
-				cr[k++]=br[j++];
 			
+		}
+		
+		//copying remaining elements from first array
+		while(i<ar.length)
+		{
+			cr[k++]=ar[i++];
+		}
+		
+		//copying remaining elements from second array 
+		while(j<br.length)
+		{
+			cr[k++]=br[j++];
 		}
 		ArrayOperations.display(cr);
 	}
