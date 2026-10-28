@@ -20,31 +20,15 @@ public class MergeArrayInSortedOrder {
 			if(i<ar.length && j<br.length)
 			{
 				if(ar[i]<br[j])
-				{
-					cr[k]=ar[i];
-					i++;
-					k++;
+					cr[k++]=ar[i++];
 					
-				}
 				else
-				{
-					cr[k]=br[j];
-					j++;
-					k++;
-				}
+					cr[k++]=br[j++];
 			}
 			else if(i<ar.length)
-			{
-				cr[k]=ar[i];
-				i++;
-				k++;
-			}
+				cr[k++]=ar[i++];
 			else if(j<br.length)
-			{
-				cr[k]=br[j];
-				j++;
-				k++;
-			}
+				cr[k++]=br[j++];
 			
 		}
 		ArrayOperations.display(cr);
