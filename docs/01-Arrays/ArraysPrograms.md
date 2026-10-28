@@ -821,3 +821,95 @@ Expected Output:
 Invalid index
 
 ---------------------------------------------------------------------------------------------
+
+19. Write a Java program to read two integer arrays from the user and merge them into a single array.
+
+The program should create a new array containing all the elements of the first array followed by all the elements of the second array, while preserving their original order.
+
+Finally, display the merged array in a single line, with elements separated by spaces.
+
+EXPLANATION:
+
+Merging two arrays means combining the elements of both arrays into a single array while maintaining their original order.
+
+Example:
+
+First Array:
+10 20 30
+
+Second Array:
+40 50
+
+Merged Array:
+10 20 30 40 50
+
+The first array contains 3 elements, and the second array contains 2 elements. Therefore, the merged array must contain 5 elements.
+
+CONSTRAINTS:
+
+1. Both array sizes must be non-negative integers.
+2. The array elements can be positive, negative, or zero.
+3. The original order of elements must be preserved.
+4. Create a new array to store the merged elements.
+5. Do not use ArrayList or other collection classes.
+
+TEST CASE 1: Both Arrays Have Multiple Elements
+
+Input:
+3
+10 20 30
+2
+40 50
+
+Expected Output:
+10 20 30 40 50
+
+
+TEST CASE 2: Both Arrays Have the Same Size
+
+Input:
+3
+1 2 3
+3
+4 5 6
+
+Expected Output:
+1 2 3 4 5 6
+
+
+TEST CASE 3: First Array Has One Element
+
+Input:
+1
+100
+4
+10 20 30 40
+
+Expected Output:
+100 10 20 30 40
+
+
+TEST CASE 4: Second Array Has One Element
+
+Input:
+4
+5 10 15 20
+1
+25
+
+Expected Output:
+5 10 15 20 25
+
+
+TEST CASE 5: Arrays Contain Negative Numbers and Zero
+
+Input:
+4
+-5 0 10 -2
+3
+-8 6 0
+
+Expected Output:
+-5 0 10 -2 -8 6 0
+
+---------------------------------------------------------------------------------------------
