@@ -913,3 +913,101 @@ Expected Output:
 -5 0 10 -2 -8 6 0
 
 ---------------------------------------------------------------------------------------------
+
+10.	Write a Java program to read two integer arrays from the user and merge them into a single array in ZigZag manner.
+
+The elements should be taken alternately from the first array and the second array, starting with the first array.
+
+If one array contains more elements than the other, append the remaining elements of the longer array to the end of the merged array in their original order.
+
+Finally, display the merged array in a single line, with elements separated by spaces.
+
+EXPLANATION:
+
+Merging two arrays in ZigZag manner means combining their elements alternately, taking one element from the first array followed by one element from the second array.
+
+Example:
+
+First Array:
+10 20 30
+
+Second Array:
+5 15 25
+
+Merged Array:
+10 5 20 15 30 25
+
+In this example, one element is taken from the first array, followed by one element from the second array, until all elements have been merged.
+
+If the arrays have different sizes, the remaining elements of the longer array must be added to the end of the merged array.
+
+CONSTRAINTS:
+
+1. Both array sizes must be non-negative integers.
+2. The array elements can be positive, negative, or zero.
+3. The merged array must contain all elements from both input arrays.
+4. The elements must be arranged alternately, starting with the first array.
+5. If one array has remaining elements, append them in their original order.
+6. The relative order of elements within each original array must be preserved.
+7. Create a new array to store the merged elements.
+8. Do not use ArrayList or other collection classes.
+
+TEST CASE 1: Both Arrays Have the Same Size
+
+Input:
+3
+10 20 30
+3
+5 15 25
+
+Expected Output:
+10 5 20 15 30 25
+
+
+TEST CASE 2: First Array Has More Elements
+
+Input:
+4
+1 2 3 4
+2
+10 20
+
+Expected Output:
+1 10 2 20 3 4
+
+
+TEST CASE 3: Second Array Has More Elements
+
+Input:
+2
+100 200
+4
+10 20 30 40
+
+Expected Output:
+100 10 200 20 30 40
+
+
+TEST CASE 4: Both Arrays Contain One Element
+
+Input:
+1
+50
+1
+25
+
+Expected Output:
+50 25
+
+
+TEST CASE 5: Arrays Contain Negative Numbers and Zero
+
+Input:
+4
+-5 0 10 -2
+3
+-8 6 0
+
+Expected Output:
+-5 -8 0 6 10 0 -2
+---------------------------------------------------------------------------------------------

@@ -20,5 +20,4 @@ public class MergeTwoArrays {
 		}
 		ArrayOperations.display(cr);
 	}
-
 }
