@@ -1123,5 +1123,58 @@ Constraints:
 9. Display the merged array in a single line, with elements separated by spaces.
 10. Display the median as a double value.
 ---------------------------------------------------------------------------------------------
+
+23 :  Write a Java program to find the maximum possible sum of two elements in a given integer array.
+
+The program must identify two distinct elements whose sum is the highest and print their sum.
+
+CONSTRAINTS:
+1. The array must contain at least two elements.
+2. The two elements must be at different indices.
+3. The array may contain positive numbers, negative numbers, and zero.
+4. Do not sort the array using built-in sorting methods.
+5. Print only the highest possible sum.
+
+TEST CASE 1:
+Input:
+Array: 10 20 30 40 50
+
+Expected Output:
+Highest Sum: 90
+
+TEST CASE 2:
+Input:
+Array: 5 5 5 5
+
+Expected Output:
+Highest Sum: 10
+
+TEST CASE 3:
+Input:
+Array: -10 -5 -20 -3 -8
+
+Expected Output:
+Highest Sum: -8
+
+TEST CASE 4:
+Input:
+Array: -10 0 15 20 -5
+
+Expected Output:
+Highest Sum: 35
+
+TEST CASE 5:
+Input:
+Array: 100 -50 75 25 90
+
+Expected Output:
+Highest Sum: 190
+
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
