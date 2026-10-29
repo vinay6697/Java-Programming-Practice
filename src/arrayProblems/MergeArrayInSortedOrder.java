@@ -1,11 +1,14 @@
 package arrayProblems;
 
+import java.util.TreeSet;
+
 public class MergeArrayInSortedOrder {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
 		int[] br=ArrayOperations.readArray();
 		
 		isMergeSorted(ar,br);
+		isMerged(ar, br);
 	}
 	
 	public static void isMergeSorted(int[] ar,int[] br)
@@ -37,5 +40,19 @@ public class MergeArrayInSortedOrder {
 			cr[k++]=br[j++];
 		}
 		ArrayOperations.display(cr);
+	}
+	
+	//this code works only if there are not duplicates presents 
+	public static void isMerged(int[] ar,int[] br)
+	{
+		TreeSet<Integer> ts=new TreeSet<>();
+		
+		for(int i=0;i<ar.length;i++)
+			ts.add(ar[i]);
+		
+		for(int j=0;j<br.length;j++)
+			ts.add(br[j]);
+		
+		System.out.println(ts);
 	}
 }
