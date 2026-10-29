@@ -1062,6 +1062,66 @@ Constraints:
 7. Store the result in a new array and display its elements in a single line, separated by spaces.
 
 ---------------------------------------------------------------------------------------------
+
+22. Write a Java program to find the median of two sorted integer arrays.
+
+The program should take the sizes and elements of both arrays as input from the user. Both arrays are already sorted in ascending order. Merge the two arrays into a single sorted array and find its median.
+
+If the total number of elements is odd, the median is the middle element. If the total number of elements is even, the median is the average of the two middle elements.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Array 1: 1 3 5
+Array 2: 2 4 6
+Expected Output:
+Merged Array: 1 2 3 4 5 6
+Median: 3.5
+
+Test Case 2:
+Input:
+Array 1: 1 2
+Array 2: 3 4
+Expected Output:
+Merged Array: 1 2 3 4
+Median: 2.5
+
+Test Case 3:
+Input:
+Array 1: 1 3 5
+Array 2: 2 4
+Expected Output:
+Merged Array: 1 2 3 4 5
+Median: 3.0
+
+Test Case 4:
+Input:
+Array 1: -5 -3
+Array 2: -4 -2
+Expected Output:
+Merged Array: -5 -4 -3 -2
+Median: -3.5
+
+Test Case 5:
+Input:
+Array 1: 10
+Array 2: 20
+Expected Output:
+Merged Array: 10 20
+Median: 15.0
+
+Constraints:
+1. Both input arrays must be sorted in ascending order.
+2. Array sizes must be greater than or equal to 0.
+3. Array elements can be positive, negative, or zero.
+4. Duplicate elements must be preserved.
+5. The median must be calculated using all elements from both arrays.
+6. If the total number of elements is even, calculate the average using floating-point division.
+7. Handle the case where both arrays are empty by displaying an appropriate message.
+8. Do not use built-in sorting methods.
+9. Display the merged array in a single line, with elements separated by spaces.
+10. Display the median as a double value.
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
