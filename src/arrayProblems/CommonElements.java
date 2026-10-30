@@ -26,6 +26,7 @@ public class CommonElements {
 		}
 	}
 	
+	//using hashset and optimized
 	public static void isCommonElements(int[] ar,int[] br)
 	{
 		  Set<Integer> set = new HashSet<>();

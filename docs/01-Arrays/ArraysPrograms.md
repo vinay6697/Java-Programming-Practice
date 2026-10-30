@@ -1171,8 +1171,191 @@ Expected Output:
 Highest Sum: 190
 
 ---------------------------------------------------------------------------------------------
+23. Write a Java program to find the common elements between two arrays.
+
+You are given two integer arrays. Your task is to identify and print all the elements that are present in both arrays.
+
+The common elements must be printed only once, even if an element appears multiple times in either array.
+
+EXPLANATION:
+
+1. Read two integer arrays from the user.
+2. Compare the elements of the first array with the elements of the second array.
+3. Identify the elements that are present in both arrays.
+4. Print each common element only once.
+5. If there are no common elements, print an appropriate message.
+
+CONSTRAINTS:
+
+1. Both arrays must contain at least one element.
+2. Array elements can be positive, negative, or zero.
+3. Array size must be greater than or equal to 1.
+4. Array size must not exceed 10^5.
+5. Duplicate elements are allowed in both arrays.
+6. Each common element must be printed only once.
+7. The output order should follow the order in which common elements first appear in the first array.
+8. Do not print duplicate common elements.
+
+INPUT FORMAT:
+
+First line: Enter the size of the first array.
+Second line: Enter the elements of the first array.
+
+Third line: Enter the size of the second array.
+Fourth line: Enter the elements of the second array.
+
+OUTPUT FORMAT:
+
+Print all the common elements separated by spaces.
+
+If no common elements exist, print:
+No common elements found.
+
+TEST CASES:
+
+TEST CASE 1:
+Input:
+6
+10 20 30 40 50 60
+5
+20 40 60 80 100
+
+Expected Output:
+20 40 60
+
+TEST CASE 2:
+Input:
+5
+1 2 3 4 5
+4
+6 7 8 9
+
+Expected Output:
+No common elements found.
+
+TEST CASE 3:
+Input:
+7
+10 20 10 30 40 20 50
+6
+20 10 20 10 60 70
+
+Expected Output:
+10 20
+
+TEST CASE 4:
+Input:
+6
+-10 -20 0 10 20 30
+5
+0 -20 40 -10 50
+
+Expected Output:
+-10 -20 0
+
+TEST CASE 5:
+Input:
+5
+5 5 5 5 5
+4
+5 5 5 5
+
+Expected Output:
+5
 
 ---------------------------------------------------------------------------------------------
+24 .Write a Java program to find the distinct elements between two arrays.
+
+You are given two integer arrays. Your task is to identify and print all the elements that are present in either the first array or the second array, but not present in both arrays.
+
+Each distinct element must be printed only once.
+
+EXPLANATION:
+
+1. Read two integer arrays from the user.
+2. Identify the elements that are present in the first array but not in the second array.
+3. Identify the elements that are present in the second array but not in the first array.
+4. Combine both results.
+5. Print each element only once.
+6. If no distinct elements exist, print an appropriate message.
+
+CONSTRAINTS:
+
+1. Both arrays must contain at least one element.
+2. Array elements can be positive, negative, or zero.
+3. Array size must be greater than or equal to 1.
+4. Array size must not exceed 10^5.
+5. Duplicate elements are allowed in both arrays.
+6. Each distinct element must be printed only once.
+7. Elements present in both arrays must not appear in the output.
+8. Maintain the order of appearance: first array elements followed by second array elements.
+
+INPUT FORMAT:
+
+First line: Enter the size of the first array.
+Second line: Enter the elements of the first array.
+
+Third line: Enter the size of the second array.
+Fourth line: Enter the elements of the second array.
+
+OUTPUT FORMAT:
+
+Print all distinct elements separated by spaces.
+
+If no distinct elements exist, print:
+No distinct elements found.
+
+TEST CASES:
+
+TEST CASE 1:
+Input:
+6
+10 20 30 40 50 60
+5
+20 40 60 80 100
+
+Expected Output:
+10 30 50 80 100
+
+TEST CASE 2:
+Input:
+5
+1 2 3 4 5
+5
+1 2 3 4 5
+
+Expected Output:
+No distinct elements found.
+
+TEST CASE 3:
+Input:
+7
+10 20 10 30 40 20 50
+6
+20 10 20 10 60 70
+
+Expected Output:
+30 40 50 60 70
+
+TEST CASE 4:
+Input:
+6
+-10 -20 0 10 20 30
+5
+0 -20 40 -10 50
+
+Expected Output:
+10 20 30 40 50
+
+TEST CASE 5:
+Input:
+5
+5 5 5 10 10
+4
+5 5 20 20
+
+Expected Output:
+10 20
 
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
