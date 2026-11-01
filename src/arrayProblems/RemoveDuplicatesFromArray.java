@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 public class RemoveDuplicatesFromArray {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
-//		isRemoveDuplicates(ar);
+		isRemoveDuplicates(ar);
 		isRemove(ar);
 	}
 	
@@ -42,5 +42,26 @@ public class RemoveDuplicatesFromArray {
 		}
 		ArrayOperations.display(br);
 	}
+	
+	//using linkedHashSet to solve the problem
+		public static void isRemove(int[] ar)
+		{
+			LinkedHashSet<Integer> lhs=new LinkedHashSet<Integer>();
+			
+			for(int i=0;i<ar.length;i++)
+			{
+				lhs.add(ar[i]);
+			}
+			int[] br=new int[lhs.size()];
+			
+			int j=0;
+			
+			for(int num:lhs)
+			{
+				br[j++]=num;
+			}
+			ar=br;
+			ArrayOperations.display(ar);
+		}
 	
 }
