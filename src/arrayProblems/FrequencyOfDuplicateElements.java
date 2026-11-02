@@ -1,9 +1,14 @@
 package arrayProblems;
 
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+
 public class FrequencyOfDuplicateElements {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
 		isFrequency(ar);
+		isFrequencyCount(ar);
 	
 	}
 	
@@ -31,5 +36,20 @@ public class FrequencyOfDuplicateElements {
 		}
 	}
 	
-	
+	public static void isFrequencyCount(int[] ar)
+	{
+		HashMap<Integer, Integer> hm=new HashMap<Integer, Integer>();
+		for(int i=0;i<ar.length;i++)
+		{
+			hm.put(ar[i], hm.getOrDefault(ar[i], 0)+1);
+		}
+		
+		Set<Entry<Integer,Integer>> entries=hm.entrySet();
+		
+		for(Entry<Integer,Integer> entry:entries)
+		{
+			if(entry.getValue()>1)
+				System.out.println(entry.getKey()+"------>"+entry.getValue());
+		}
+	}
 }
