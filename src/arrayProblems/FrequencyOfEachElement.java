@@ -1,9 +1,14 @@
 package arrayProblems;
 
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+
 public class FrequencyOfEachElement {
 	public static void main(String[] args) {
 		int[] ar=ArrayOperations.readArray();
 		isFrequency(ar);
+		isFrequencyCount(ar);
 	}
 	
 	public static void isFrequency(int[] ar)
@@ -21,6 +26,23 @@ public class FrequencyOfEachElement {
 			}
 			if(ar[i]!=Integer.MIN_VALUE)
 				System.out.println(ar[i]+"---->"+count);
+		}
+	}
+	
+	//using hashmap to reduce the time complexity
+	public static void isFrequencyCount(int[] ar)
+	{
+		HashMap<Integer,Integer> hm=new HashMap<>();
+		
+		for(int i=0;i<ar.length;i++)
+		{
+			hm.put(ar[i], hm.getOrDefault(ar[i], 0)+1);
+		}
+		
+		Set<Entry<Integer, Integer>> entries=hm.entrySet();
+		for(Entry<Integer ,Integer> entry:entries)
+		{
+			System.out.println(entry.getKey()+"---->"+entry.getValue());
 		}
 	}
 
