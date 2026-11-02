@@ -1358,6 +1358,74 @@ Expected Output:
 10 20
 
 ---------------------------------------------------------------------------------------------
+25. Write a Java program to find the frequency of each distinct element present in a given integer array.
+
+The frequency of an element is the number of times that element appears in the array.
+
+Requirements:
+1. Accept an integer array from the user.
+2. Count the occurrences of each distinct element.
+3. Print each distinct element along with its frequency.
+4. Print each element only once.
+
+TEST CASES:
+
+Test Case 1:
+Input:
+1 2 3 2 1 4 2
+
+Output:
+1 ----> 2
+2 ----> 3
+3 ----> 1
+4 ----> 1
+
+
+Test Case 2:
+Input:
+5 5 5 5 5
+
+Output:
+5 ----> 5
+
+
+Test Case 3:
+Input:
+10 20 30 40 50
+
+Output:
+10 ----> 1
+20 ----> 1
+30 ----> 1
+40 ----> 1
+50 ----> 1
+
+
+Test Case 4:
+Input:
+-1 0 -1 2 0 -3 2 -1
+
+Output:
+-1 ----> 3
+0 ----> 2
+2 ----> 2
+-3 ----> 1
+
+
+Test Case 5:
+Input:
+ 10 30 20 20 10 10
+
+Output:
+10 ----> 3
+20 ----> 2
+30 ---->1
+
+
+CONSTRAINTS:
+1. Array elements can be positive, negative, or zero.
+2. Do not print duplicate elements in the output.
+3. Try solving using nested loops without using additional collections.
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
