@@ -1427,5 +1427,77 @@ CONSTRAINTS:
 2. Do not print duplicate elements in the output.
 3. Try solving using nested loops without using additional collections.
 ---------------------------------------------------------------------------------------------
+
+26. Write a Java program to find and print only the duplicate elements present in a given integer array along with their frequency.
+
+The frequency of an element represents the total number of times it appears in the array.
+
+Explanation:
+
+1. Accept an integer array from the user.
+2. Identify the elements that appear more than once.
+3. Count the frequency of each duplicate element.
+4. Print each duplicate element only once along with its frequency.
+5. Maintain the order of first occurrence of elements in the output.
+6. Do not print elements that appear only once.
+
+TEST CASES:
+
+Test Case 1:
+Input:
+1 2 5 4 7 8 5 2 3 5 1 2 4 8 6
+
+Output:
+1 -----> 2
+2 -----> 3
+5 -----> 3
+4 -----> 2
+8 -----> 2
+
+
+Test Case 2:
+Input:
+10 20 30 40 50
+
+Output:
+No duplicate elements found
+
+
+Test Case 3:
+Input:
+5 5 5 5 5
+
+Output:
+5 -----> 5
+
+
+Test Case 4:
+Input:
+-1 0 -1 2 0 -3 2 -1
+
+Output:
+-1 -----> 3
+0 -----> 2
+2 -----> 2
+
+
+Test Case 5:
+Input:
+-2147483648 10 -2147483648 20 10 10 30 20
+
+Output:
+-2147483648 -----> 2
+10 -----> 3
+20 -----> 2
+
+
+CONSTRAINTS:
+
+1. Array elements can be positive, negative, or zero.
+2. Do not modify the original array.
+3. Do not print an element more than once.
+4. Maintain the order of first occurrence.
+5. Try solving using nested loops without using additional collections.
+
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
