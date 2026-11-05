@@ -1544,3 +1544,51 @@ Target Sum: 10
 Expected Output: Pair found: 5 5
 
 ---------------------------------------------------------------------------------------------
+28.Write a Java program to find all the missing elements in a given integer array.
+
+The array contains distinct integers. Identify and
+print all the missing integers between the smallest
+and largest elements of the array in ascending order.
+
+Example:
+Input Array: 1 2 4 6 8 10
+Output: 3 5 7 9
+
+Explanation:
+The smallest element is 1 and the largest element is 10.
+The expected sequence is:
+1 2 3 4 5 6 7 8 9 10
+
+The elements 3, 5, 7 and 9 are missing.
+
+Constraints:
+1. Array must contain at least one element.
+2. Array elements must be distinct.
+3. Array elements can be positive, negative or zero.
+4. Find missing elements only between the smallest
+   	and largest array elements.
+5. Print missing elements in ascending order.
+6. Do not use Collections, HashSet or sorting initially.
+7. If no elements are missing, print an appropriate message.
+
+Test Case 1:
+Input: 1 2 4 6 8 10
+Expected Output: 3 5 7 9
+
+Test Case 2:
+Input: 1 2 3 4 5
+Expected Output: No missing elements
+
+Test Case 3:
+Input: 2 4 6 8 10
+Expected Output: 3 5 7 9
+
+Test Case 4:
+Input: 10 5 1 8 3
+Expected Output: 2 4 6 7 9
+
+Test Case 5:
+Input: -5 -3 0 2 5
+Expected Output: -4 -2 -1 1 3 4
+
+---------------------------------------------------------------------------------------------
