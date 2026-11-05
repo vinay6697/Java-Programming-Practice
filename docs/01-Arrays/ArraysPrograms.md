@@ -1500,4 +1500,47 @@ CONSTRAINTS:
 5. Try solving using nested loops without using additional collections.
 
 ---------------------------------------------------------------------------------------------
+27. Write a Java program to check whether a pair of two elements exists in a given integer array whose sum is equal to a specified target value.
+
+If a pair exists, print the pair of elements. Otherwise, display an appropriate message.
+
+Example:
+Input Array: 10 20 30 40 50
+Target Sum: 70
+Output: Pair found: 20 50
+
+Constraints:
+1. Array must contain at least 2 elements.
+2. Array elements can be positive, negative or zero.
+3. Target sum can be positive, negative or zero.
+4. The same array index cannot be used twice.
+5. Print at least one valid pair if multiple pairs exist.
+6. If no valid pair exists, print an appropriate message.
+7. Initially solve without using Collections or HashMap.
+
+Test Case 1:
+Input Array: 10 20 30 40 50
+Target Sum: 70
+Expected Output: Pair found: 20 50
+
+Test Case 2:
+Input Array: 5 15 25 35 45
+Target Sum: 100
+Expected Output: Pair not found
+
+Test Case 3:
+Input Array: -10 -20 30 40 50
+Target Sum: 20
+Expected Output: Pair found: -10 30
+
+Test Case 4:
+Input Array: 0 10 20 30 40
+Target Sum: 30
+Expected Output: Pair found: 0 30
+
+Test Case 5:
+Input Array: 5 5 10 10 15
+Target Sum: 10
+Expected Output: Pair found: 5 5
+
 ---------------------------------------------------------------------------------------------

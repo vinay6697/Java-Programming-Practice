@@ -9,7 +9,6 @@ public class FrequencyOfDuplicateElements {
 		int[] ar=ArrayOperations.readArray();
 		isFrequency(ar);
 		isFrequencyCount(ar);
-	
 	}
 	
 	public static void isFrequency(int[] ar)
@@ -36,6 +35,7 @@ public class FrequencyOfDuplicateElements {
 		}
 	}
 	
+	//solved using HashMap reducing the time complexity to O(n)average
 	public static void isFrequencyCount(int[] ar)
 	{
 		HashMap<Integer, Integer> hm=new HashMap<Integer, Integer>();
