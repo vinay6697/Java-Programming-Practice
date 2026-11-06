@@ -1592,3 +1592,64 @@ Input: -5 -3 0 2 5
 Expected Output: -4 -2 -1 1 3 4
 
 ---------------------------------------------------------------------------------------------
+29 Write a Java program to rearrange the given integer array such that all negative elements are moved to the left side and all positive elements are moved to the right side.
+
+The relative order of the elements does not need to be maintained.
+
+Explanation:
+You are given an integer array containing negative numbers, positive numbers, and optionally zero.
+
+Your task is to rearrange the array according to the following conditions:
+
+1. All negative elements must appear on the left side.
+2. All positive elements must appear on the right side.
+3. Zero should be treated as a non-negative element and placed on the right side.
+4. The relative order of elements does not need to be maintained.
+
+Constraints:
+1. 1 <= array.length <= 10^5
+2. -10^9 <= array[i] <= 10^9
+3. The array may contain negative numbers, positive numbers, and zeros.
+
+Test Cases:
+
+Test Case 1:
+Input:
+ar = [10, -5, 8, -2, -7, 15, -3]
+
+Output:
+[-5, -2, -7, -3, 10, 8, 15]
+
+
+Test Case 2:
+Input:
+ar = [-1, -2, -3, -4, 5, 6]
+
+Output:
+[-1, -2, -3, -4, 5, 6]
+
+
+Test Case 3:
+Input:
+ar = [1, 2, 3, -4, -5, -6]
+
+Output:
+[-6, -5, -4, 3, 2, 1]
+
+
+Test Case 4:
+Input:
+ar = [0, -5, 10, -2, 0, 8, -7]
+
+Output:
+[-5, -2, -7, 0, 10, 8, 0]
+
+
+Test Case 5:
+Input:
+ar = [5, 10, 15, 20, 25]
+
+Output:
+[5, 10, 15, 20, 25]
+
+---------------------------------------------------------------------------------------------
