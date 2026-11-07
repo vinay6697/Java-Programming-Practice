@@ -1771,6 +1771,7 @@ Output:
 [20, -1, 0, 5, -10]
 
 ---------------------------------------------------------------------------------------------
+
 32 Write a Java program to left rotate an array by K positions.
 
 Left rotation means moving the elements of an array towards the left by K positions. 
@@ -1850,4 +1851,104 @@ K = 8
 
 Expected Output:
 [3, 4, 5, 6, 1, 2]
+
+---------------------------------------------------------------------------------------------
+33. Write a Java program to count the number of pairs in an array whose sum is equal to a given target value.
+
+A pair consists of two elements from the array whose sum equals the given target.
+
+Each pair must contain elements from two different indices.
+
+Example 1
+
+Input:
+Array = [1, 5, 7, -1, 5]
+Target = 6
+
+Output:
+3
+
+Explanation:
+
+The pairs whose sum equals 6 are:
+
+Pair 1: (1, 5) - Indices 0 and 1
+Pair 2: (1, 5) - Indices 0 and 4
+Pair 3: (7, -1) - Indices 2 and 3
+
+Total number of pairs = 3
+
+Note: Duplicate values at different indices can form separate pairs.
+
+Example 2
+
+Input:
+Array = [1, 1, 1, 1]
+Target = 2
+
+Output:
+6
+
+Explanation:
+
+All four elements have the same value.
+
+Possible pairs:
+
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+
+Total number of pairs = 6
+
+Test Cases
+
+Test Case 1:
+
+Input:
+Array = [1, 5, 7, -1, 5]
+Target = 6
+
+Expected Output:
+3
+
+Test Case 2:
+
+Input:
+Array = [1, 1, 1, 1]
+Target = 2
+
+Expected Output:
+6
+
+Test Case 3:
+
+Input:
+Array = [1, 2, 3, 4, 5]
+Target = 10
+
+Expected Output:
+0
+
+Test Case 4:
+
+Input:
+Array = [2, 4, 3, 5, 6, -1, 0, 8, 7, 1]
+Target = 7
+
+Expected Output:
+5
+
+Test Case 5:
+
+Input:
+Array = [0, 0, 0, 0, 0]
+Target = 0
+
+Expected Output:
+10
+
 ---------------------------------------------------------------------------------------------
