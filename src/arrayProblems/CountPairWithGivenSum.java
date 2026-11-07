@@ -1,5 +1,6 @@
 package arrayProblems;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CountPairWithGivenSum {
@@ -9,6 +10,7 @@ public class CountPairWithGivenSum {
 		System.out.println("Enter the sum");
 		int sum=sc.nextInt();
 		isCountPair(ar,sum);
+		isCount(ar,sum);
 		sc.close();
 	}
 	
@@ -26,5 +28,28 @@ public class CountPairWithGivenSum {
 			}
 		}
 		System.out.println(count);
+	}
+	
+	public static void isCount(int[] ar,int sum)
+	{
+		Arrays.sort(ar);
+		int count=0;
+		
+		int i=0;
+		int j=ar.length-1;
+		
+		while(i<j)
+		{
+			int value=ar[i]+ar[j];
+			if(value==sum)
+				count++;
+			
+			if(value>=sum)
+				j--;
+			else 
+				i++;
+		}
+		System.out.println(count);
+			
 	}
 }
