@@ -1711,15 +1711,143 @@ ar = [-1, 0, 5, -10, 20]
 Output:
 [0, 5, -10, 20, -1]
 
+---------------------------------------------------------------------------------------------
 
-Expected Complexity:
-Time Complexity: O(n)
-Auxiliary Space Complexity: O(1)
+31 Write a Java program to rotate the given integer array to the right by one position.
 
-Note:
-Try solving this problem without using an additional array.
+Explanation:
+You are given an integer array. Your task is to rotate the array to the right by one position.
 
-Hint:
-Think about storing the first element in a temporary variable before shifting the remaining elements.
+During right rotation:
+1. The last element of the array should be moved to the first position.
+2. All remaining elements should be shifted one position towards the right.
+3. The relative order of the remaining elements must be maintained.
+4. The original array should be modified.
 
+Constraints:
+1. 1 <= array.length <= 10^5
+2. -10^9 <= array[i] <= 10^9
+3. The rotation must be performed by exactly one position.
+
+Test Cases:
+
+Test Case 1:
+Input:
+ar = [1, 2, 3, 4, 5]
+
+Output:
+[5, 1, 2, 3, 4]
+
+
+Test Case 2:
+Input:
+ar = [10, 20, 30, 40]
+
+Output:
+[40, 10, 20, 30]
+
+
+Test Case 3:
+Input:
+ar = [5, 10]
+
+Output:
+[10, 5]
+
+
+Test Case 4:
+Input:
+ar = [7]
+
+Output:
+[7]
+
+
+Test Case 5:
+Input:
+ar = [-1, 0, 5, -10, 20]
+
+Output:
+[20, -1, 0, 5, -10]
+
+---------------------------------------------------------------------------------------------
+32 Write a Java program to left rotate an array by K positions.
+
+Left rotation means moving the elements of an array towards the left by K positions. 
+The elements removed from the beginning of the array should be placed at the end while maintaining their original order.
+
+Example 1
+
+Input:
+Array = [1, 2, 3, 4, 5, 6, 7]
+K = 2
+
+Output:
+[3, 4, 5, 6, 7, 1, 2]
+
+Explanation:
+
+1. Rotate left by 1 position:
+   [2, 3, 4, 5, 6, 7, 1]
+
+2. Rotate left by 2 positions:
+   [3, 4, 5, 6, 7, 1, 2]
+
+Therefore, the final rotated array is:
+[3, 4, 5, 6, 7, 1, 2]
+
+Example 2
+
+Input:
+Array = [10, 20, 30, 40, 50]
+K = 3
+
+Output:
+[40, 50, 10, 20, 30]
+
+Explanation:
+
+After rotating the array to the left by 3 positions, the first three elements move to the end while maintaining their original order.
+
+Test Cases
+
+Test Case 1:
+Input:
+Array = [1, 2, 3, 4, 5]
+K = 2
+
+Expected Output:
+[3, 4, 5, 1, 2]
+
+Test Case 2:
+Input:
+Array = [10, 20, 30, 40, 50]
+K = 3
+
+Expected Output:
+[40, 50, 10, 20, 30]
+
+Test Case 3:
+Input:
+Array = [1, 2, 3, 4, 5]
+K = 1
+
+Expected Output:
+[2, 3, 4, 5, 1]
+
+Test Case 4:
+Input:
+Array = [5, 10, 15, 20, 25]
+K = 5
+
+Expected Output:
+[5, 10, 15, 20, 25]
+
+Test Case 5:
+Input:
+Array = [1, 2, 3, 4, 5, 6]
+K = 8
+
+Expected Output:
+[3, 4, 5, 6, 1, 2]
 ---------------------------------------------------------------------------------------------
