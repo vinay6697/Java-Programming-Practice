@@ -1952,3 +1952,90 @@ Expected Output:
 10
 
 ---------------------------------------------------------------------------------------------
+34.Write a Java program to right rotate an array by K positions.
+
+Right rotation means moving the elements of an array towards the right by K positions.
+
+The elements moved out from the end of the array should be placed at the beginning while maintaining their original relative order.
+
+Example 1
+
+Input:
+Array = [1, 2, 3, 4, 5, 6, 7]
+K = 2
+
+Output:
+[6, 7, 1, 2, 3, 4, 5]
+
+Explanation:
+
+1. Rotate right by 1 position:
+   [7, 1, 2, 3, 4, 5, 6]
+
+2. Rotate right by 2 positions:
+   [6, 7, 1, 2, 3, 4, 5]
+
+Therefore, the final rotated array is:
+[6, 7, 1, 2, 3, 4, 5]
+
+Example 2
+
+Input:
+Array = [10, 20, 30, 40, 50]
+K = 3
+
+Output:
+[30, 40, 50, 10, 20]
+
+Explanation:
+
+After rotating the array to the right by 3 positions, the last three elements move to the beginning while maintaining their original order.
+
+Test Cases
+
+Test Case 1:
+
+Input:
+Array = [1, 2, 3, 4, 5]
+K = 2
+
+Expected Output:
+[4, 5, 1, 2, 3]
+
+Test Case 2:
+
+Input:
+Array = [10, 20, 30, 40, 50]
+K = 3
+
+Expected Output:
+[30, 40, 50, 10, 20]
+
+Test Case 3:
+
+Input:
+Array = [1, 2, 3, 4, 5]
+K = 1
+
+Expected Output:
+[5, 1, 2, 3, 4]
+
+Test Case 4:
+
+Input:
+Array = [5, 10, 15, 20, 25]
+K = 5
+
+Expected Output:
+[5, 10, 15, 20, 25]
+
+Test Case 5:
+
+Input:
+Array = [1, 2, 3, 4, 5, 6]
+K = 8
+
+Expected Output:
+[5, 6, 1, 2, 3, 4]
+
+---------------------------------------------------------------------------------------------
