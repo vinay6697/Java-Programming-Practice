@@ -2039,3 +2039,80 @@ Expected Output:
 [5, 6, 1, 2, 3, 4]
 
 ---------------------------------------------------------------------------------------------
+35. Write a Java program to count the number of two-digit and three-digit numbers present in a given integer array.
+
+A two-digit number is a number whose absolute value contains exactly two digits.
+
+A three-digit number is a number whose absolute value contains exactly three digits.
+
+Your program should separately count two-digit and three-digit numbers.
+
+Example
+
+Input:
+Array = [5, 12, 345, 67, 890, 1000, 9, 78]
+
+Output:
+Two-Digit Numbers Count = 3
+Three-Digit Numbers Count = 2
+
+Explanation:
+
+Two-digit numbers:
+12, 67, 78
+
+Three-digit numbers:
+345, 890
+
+Therefore:
+Two-digit count = 3
+Three-digit count = 2
+
+Test Cases
+
+Test Case 1:
+
+Input:
+Array = [10, 20, 100, 200, 1000]
+
+Expected Output:
+Two-Digit Count = 2
+Three-Digit Count = 2
+
+Test Case 2:
+
+Input:
+Array = [1, 2, 3, 4, 5]
+
+Expected Output:
+Two-Digit Count = 0
+Three-Digit Count = 0
+
+Test Case 3:
+
+Input:
+Array = [99, 100, 999, 1000, 9999]
+
+Expected Output:
+Two-Digit Count = 1
+Three-Digit Count = 2
+
+Test Case 4:
+
+Input:
+Array = [-12, -345, 56, -789, 100]
+
+Expected Output:
+Two-Digit Count = 2
+Three-Digit Count = 3
+
+Test Case 5:
+
+Input:
+Array = [10, 11, 12, 100, 101, 102, 1000]
+
+Expected Output:
+Two-Digit Count = 3
+Three-Digit Count = 3
+---------------------------------------------------------------------------------------------
+
