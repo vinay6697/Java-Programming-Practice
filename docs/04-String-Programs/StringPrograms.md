@@ -161,3 +161,37 @@ Last Character: A
 
 ----------------------------------------------------------------------------------------------
 
+5.  a Java program to convert a given String into a character array without using the built-in toCharArray() method.
+
+Explanation:
+
+1. Take a String as input from the user.
+2. Create a character array to store the characters of the String.
+3. Traverse each character of the String using a loop.
+4. Retrieve each character using the charAt() method.
+5. Store each character into the corresponding position of the character array.
+6. Display the resulting character array.
+
+Test Cases:
+
+Test Case 1
+Input: "Java"
+Expected Output: J a v a
+
+Test Case 2
+Input: "Hello"
+Expected Output: H e l l o
+
+Test Case 3
+Input: "Programming"
+Expected Output: P r o g r a m m i n g
+
+Test Case 4
+Input: "12345"
+Expected Output: 1 2 3 4 5
+
+Test Case 5
+Input: "A"
+Expected Output: A
+
+----------------------------------------------------------------------------------------------
