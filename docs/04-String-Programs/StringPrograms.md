@@ -116,3 +116,48 @@ Input: "0"
 Expected Output: 0
 
 ----------------------------------------------------------------------------------------------
+
+4. Write a Java program to fetch and display the first and last characters of a given String.
+
+Explanation:
+
+1. Take a String as input from the user.
+2. Retrieve the first character of the String.
+3. Retrieve the last character of the String.
+4. Display both the first and last characters.
+5. Do not use the built-in length() method.
+
+Test Cases:
+
+Test Case 1
+Input: "Java"
+Expected Output:
+First Character: J
+Last Character: a
+
+Test Case 2
+Input: "Programming"
+Expected Output:
+First Character: P
+Last Character: g
+
+Test Case 3
+Input: "Hello"
+Expected Output:
+First Character: H
+Last Character: o
+
+Test Case 4
+Input: "12345"
+Expected Output:
+First Character: 1
+Last Character: 5
+
+Test Case 5
+Input: "A"
+Expected Output:
+First Character: A
+Last Character: A
+
+----------------------------------------------------------------------------------------------
+
