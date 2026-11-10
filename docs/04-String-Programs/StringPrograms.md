@@ -81,3 +81,38 @@ Expected Output: Strings are Not Equal
 
 ----------------------------------------------------------------------------------------------
 
+3.Write a Java program to convert a given String containing numeric characters into an integer without using the built-in Integer.parseInt() method.
+
+Explanation:
+
+1. Take a String containing numeric characters as input from the user.
+2. Initialize an integer variable to store the converted number.
+3. Traverse each character of the String.
+4. Convert each character into its corresponding numeric value by subtracting the character '0'.
+5. Multiply the existing result by 10 and add the converted digit.
+6. Repeat this process until all characters are processed.
+7. Display the final integer value.
+
+Test Cases:
+
+Test Case 1
+Input: "1234"
+Expected Output: 1234
+
+Test Case 2
+Input: "567"
+Expected Output: 567
+
+Test Case 3
+Input: "98765"
+Expected Output: 98765
+
+Test Case 4
+Input: "1000"
+Expected Output: 1000
+
+Test Case 5
+Input: "0"
+Expected Output: 0
+
+----------------------------------------------------------------------------------------------
