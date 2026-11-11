@@ -249,3 +249,75 @@ Input: "Education"
 Expected Output: 5
 
 ----------------------------------------------------------------------------------------------
+7. Write a Java program to find and print the total number of vowels and consonants present in a given String.
+
+Vowels: a, e, i, o, u.
+
+All other English alphabet characters (a-z) that are not vowels should be considered consonants.
+
+The program should handle both uppercase and lowercase letters.
+
+Example:
+
+Input:
+Enter a String: Hello World
+
+Output:
+Number of vowels: 3
+Number of consonants: 7
+
+Explanation:
+
+The given String is "Hello World".
+
+Character-wise classification:
+
+H → Consonant
+e → Vowel
+l → Consonant
+l → Consonant
+o → Vowel
+W → Consonant
+o → Vowel
+r → Consonant
+l → Consonant
+d → Consonant
+
+Total number of vowels = 3.
+Total number of consonants = 7.
+
+Note: Spaces, digits and special characters should not be counted as vowels or consonants.
+
+Test Cases:
+
+Test Case 1:
+Input: "Hello World"
+Expected Output:
+Vowels: 3
+Consonants: 7
+
+Test Case 2:
+Input: "Java Programming"
+Expected Output:
+Vowels: 5
+Consonants: 10
+
+Test Case 3:
+Input: "AEIOU"
+Expected Output:
+Vowels: 5
+Consonants: 0
+
+Test Case 4:
+Input: "bcdfgh"
+Expected Output:
+Vowels: 0
+Consonants: 6
+
+Test Case 5:
+Input: "Java123@#$"
+Expected Output:
+Vowels: 2
+Consonants: 2
+
+----------------------------------------------------------------------------------------------
