@@ -13,7 +13,6 @@ public class CountOfVowelsInString {
 	
 	public static void isVowelCount(String str)
 	{
-		
 		char[] ch=str.toLowerCase().toCharArray();
 		
 		int count=0;
