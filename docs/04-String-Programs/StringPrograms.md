@@ -195,3 +195,57 @@ Input: "A"
 Expected Output: A
 
 ----------------------------------------------------------------------------------------------
+6.Write a Java program to find the total number of vowels present in a given String.
+
+The vowels are a, e, i, o, u. The program should count both uppercase and lowercase vowels.
+
+Example:
+
+Input:
+Enter a String: Hello World
+
+Output:
+Number of vowels: 3
+
+Explanation:
+
+The given String is "Hello World".
+
+Characters present in the String:
+
+H → Not a vowel
+e → Vowel
+l → Not a vowel
+l → Not a vowel
+o → Vowel
+W → Not a vowel
+o → Vowel
+r → Not a vowel
+l → Not a vowel
+d → Not a vowel
+
+Total number of vowels = 3.
+
+Test Cases:
+
+Test Case 1:
+Input: "Hello World"
+Expected Output: 3
+
+Test Case 2:
+Input: "Java Programming"
+Expected Output: 5
+
+Test Case 3:
+Input: "AEIOU"
+Expected Output: 5
+
+Test Case 4:
+Input: "bcdfgh"
+Expected Output: 0
+
+Test Case 5:
+Input: "Education"
+Expected Output: 5
+
+----------------------------------------------------------------------------------------------
