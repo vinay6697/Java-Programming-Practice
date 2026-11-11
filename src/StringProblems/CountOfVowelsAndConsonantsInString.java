@@ -30,5 +30,4 @@ public class CountOfVowelsAndConsonantsInString {
 		System.out.println("vowels count is: " + vcount);
 		System.out.println("consonants count is: " + ccount);
 	}
-
 }

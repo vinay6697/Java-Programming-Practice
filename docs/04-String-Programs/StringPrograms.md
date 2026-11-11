@@ -321,3 +321,52 @@ Vowels: 2
 Consonants: 2
 
 ----------------------------------------------------------------------------------------------
+
+8.Write a Java program to find and print the total number of spaces present in a given String.
+
+A space is defined as a blank space character (' '). The program should count all spaces between words, including consecutive spaces.
+
+Example:
+
+Input:
+Enter a String: Java is a programming language
+
+Output:
+Number of spaces: 4
+
+Explanation:
+
+The given String is "Java is a programming language".
+
+There are spaces between the following words:
+
+1. Java and is
+2. is and a
+3. a and programming
+4. programming and language
+
+Total number of spaces = 4.
+
+Test Cases:
+
+Test Case 1:
+Input: "Java is a programming language"
+Expected Output: 4
+
+Test Case 2:
+Input: "Hello World"
+Expected Output: 1
+
+Test Case 3:
+Input: "Java  Programming"
+Expected Output: 2
+
+Test Case 4:
+Input: "HelloWorld"
+Expected Output: 0
+
+Test Case 5:
+Input: "  Java is  easy  "
+Expected Output: 6
+
+----------------------------------------------------------------------------------------------
