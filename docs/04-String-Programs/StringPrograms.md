@@ -1,8 +1,4 @@
-1. Java Program to Find the Length of a String Without Using length() Method
-
-Question:
-
-Write a Java program to find the length of a given String without using the built-in length() method.
+1. Write a Java program to find the length of a given String without using the built-in length() method.
 
 Explanation:
 
@@ -161,7 +157,7 @@ Last Character: A
 
 ----------------------------------------------------------------------------------------------
 
-5.  a Java program to convert a given String into a character array without using the built-in toCharArray() method.
+5. Write a Java program to convert a given String into a character array without using the built-in toCharArray() method.
 
 Explanation:
 
@@ -369,4 +365,45 @@ Test Case 5:
 Input: "  Java is  easy  "
 Expected Output: 6
 
+----------------------------------------------------------------------------------------------
+
+10. WAJP to find the count of characters having even ASCII values in the given String.
+
+Question:
+Write a Java program to accept a String from the user and count the number of characters whose ASCII values are even.
+
+Explanation:
+1. Read a String from the user.
+2. Traverse each character in the String using a loop.
+3. Find the ASCII value of each character.
+4. Check whether the ASCII value is divisible by 2 using the modulus (%) operator.
+5. If the ASCII value is even, increment the count.
+6. Finally, print the total count of characters having even ASCII values.
+
+Test Cases:
+
+Test Case 1:
+Input: ABCD
+Output: 2
+
+Test Case 2:
+Input: HELLO
+Output: 2
+
+Test Case 3:
+Input: JAVA
+Output: 2
+
+Test Case 4:
+Input: abc
+Output: 1
+
+Test Case 5:
+Input: 12345
+Output: 2
+
+Note:
+- Consider uppercase letters, lowercase letters and digits.
+- Ignore spaces in the String.
+- ASCII values divisible by 2 are considered even.
 ----------------------------------------------------------------------------------------------
