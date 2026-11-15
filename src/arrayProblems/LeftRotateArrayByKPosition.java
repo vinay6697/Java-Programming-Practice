@@ -8,7 +8,8 @@ public class LeftRotateArrayByKPosition {
 		int[] ar = ArrayOperations.readArray();
 		System.out.println("Enter the no of rotations");
 		int k = sc.nextInt();
-		isLeftRotate(ar, k);
+//		isLeftRotate(ar, k);
+		rotateArr(ar,k);
 		sc.close();
 	}
 
@@ -27,5 +28,23 @@ public class LeftRotateArrayByKPosition {
 			r--;
 		}
 		ArrayOperations.display(ar);
+	}
+	
+	//optimized solution
+		public static void rotateArr(int ar[], int k) {
+
+			int[] temp = new int[k];
+
+			for (int i = 0; i < k; i++) {
+				temp[i] = ar[i];
+			}
+
+			for (int i = k; i < ar.length; i++) {
+				ar[i - k] = ar[i];
+			}
+
+			for (int i = ar.length - k; i < ar.length; i++) {
+				ar[i] = temp[i - (ar.length - k)];
+			}
 	}
 }
