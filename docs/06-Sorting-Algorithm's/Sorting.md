@@ -2,6 +2,7 @@ Sorting Algorithm's
 
 ----------------------------------------------------------------------------------------------
 1. BubbleSort
+
 JAVA PROGRAM TO SORT AN ARRAY USING BUBBLE SORT
 
 QUESTION:
@@ -272,3 +273,82 @@ Worst Case: O(n²)
 Auxiliary Space: O(log n) on average for the recursion stack.
 
 ----------------------------------------------------------------------------------------------
+
+5. Merge Sort
+
+Java Program to Implement Merge Sort Algorithm
+
+Write a Java program to sort the given array of integers in ascending order using the Merge Sort algorithm.
+
+Your program should implement Merge Sort using the Divide and Conquer approach.
+
+Explanation:
+
+Merge Sort is a sorting algorithm that follows the Divide and Conquer principle.
+
+It works using the following steps:
+
+1. Divide the given array into two halves.
+2. Continue dividing each half recursively until every subarray contains only one element.
+3. Compare the elements of two smaller sorted subarrays.
+4. Merge them into a single sorted subarray.
+5. Continue merging until the entire array becomes sorted.
+
+Requirements:
+
+- Implement a separate method to perform Merge Sort.
+- Implement a separate method to perform Merging.
+- Use recursion to divide the array.
+- Use three variables (i, j, k) for merging.
+- Use an additional temporary array to store merged elements.
+- Copy the merged elements back into the original array.
+- Sort the array in ascending order.
+- Do not use built-in sorting methods.
+
+Test Cases:
+
+Test Case 1:
+Input:
+[15, 5, 24, 8, 1, 3, 16, 10, 20]
+
+Expected Output:
+[1, 3, 5, 8, 10, 15, 16, 20, 24]
+
+Test Case 2:
+Input:
+[5, 4, 3, 2, 1]
+
+Expected Output:
+[1, 2, 3, 4, 5]
+
+ Test Case 3:
+Input:
+[1, 2, 3, 4, 5]
+
+Expected Output:
+[1, 2, 3, 4, 5]
+
+Test Case 4:
+Input:
+[8, 3, 8, 2, 5, 3, 1]
+
+Expected Output:
+[1, 2, 3, 3, 5, 8, 8]
+
+Test Case 5:
+Input:
+[10, -5, 0, 25, -10, 15, -2]
+
+Expected Output:
+[-10, -5, -2, 0, 10, 15, 25]
+
+Time and Space Complexity:
+
+Best Case: O(n log n)
+
+Average Case: O(n log n)
+
+Worst Case: O(n log n)
+
+Auxiliary Space: O(n)
+
