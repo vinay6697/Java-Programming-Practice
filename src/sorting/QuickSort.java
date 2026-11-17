@@ -27,9 +27,9 @@ public class QuickSort {
 		
 		int pivot=ar[lb];
 		
-		while(start<=end)
+		while(start<end)
 		{
-			while(ar[start]<=pivot) {
+			while(start <= ub && ar[start] <= pivot) {
 				start++;
 			}
 			

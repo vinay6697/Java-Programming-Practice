@@ -486,3 +486,104 @@ The program should convert all uppercase characters in the given string into low
 
 ----------------------------------------------------------------------------------------------
 
+13. Write a Java program to find the frequency of each character present in the given String.
+
+The program should count how many times each character occurs and display each character along with its frequency.
+
+EXPLANATION:
+
+Frequency of a character means the total number of times that character appears in a given String.
+
+Example:
+
+Input:
+programming
+
+Output:
+p = 1
+r = 2
+o = 1
+g = 2
+a = 1
+m = 2
+i = 1
+n = 1
+
+REQUIREMENTS:
+
+1. Accept a String as input.
+2. Identify each character in the String.
+3. Count the occurrences of every character.
+4. Display each character only once along with its frequency.
+5. Avoid counting the same character multiple times.
+6. Treat uppercase and lowercase characters as different.
+7. Count spaces as characters.
+
+TEST CASES:
+
+TEST CASE 1:
+
+Input:
+programming
+
+Expected Output:
+p = 1
+r = 2
+o = 1
+g = 2
+a = 1
+m = 2
+i = 1
+n = 1
+
+TEST CASE 2:
+
+Input:
+banana
+
+Expected Output:
+b = 1
+a = 3
+n = 2
+
+TEST CASE 3:
+
+Input:
+hello
+
+Expected Output:
+h = 1
+e = 1
+l = 2
+o = 1
+
+TEST CASE 4:
+
+Input:
+aabbccdd
+
+Expected Output:
+a = 2
+b = 2
+c = 2
+d = 2
+
+TEST CASE 5:
+
+Input:
+Java Programming
+
+Expected Output:
+J = 1
+a = 3
+v = 1
+  = 1
+P = 1
+r = 2
+o = 1
+g = 2
+m = 2
+i = 1
+n = 1
+
+----------------------------------------------------------------------------------------------
