@@ -187,3 +187,88 @@ Constraints:
 5. Do not use built-in sorting methods such as Arrays.sort().
 
 ----------------------------------------------------------------------------------------------
+
+4. Quick Sort
+
+Write a Java program to sort the given array of integers in ascending order using the Quick Sort algorithm.
+
+Your program should implement the Quick Sort algorithm using the Divide and Conquer approach.
+
+Explanation:
+
+Quick Sort is a sorting algorithm that follows the Divide and Conquer principle.
+
+It works using the following steps:
+
+1. Select an element from the array as the PIVOT element.
+2. Partition the array so that all elements smaller than or equal to the pivot are placed towards its left, and greater elements are placed towards its right.
+3. Place the pivot element in its correct sorted position.
+4. Recursively apply the same process to the left subarray and right subarray.
+5. Continue until the subarrays contain zero or one element.
+
+Requirements:
+
+- Implement a separate method to perform Quick Sort.
+- Implement a separate method to perform Partitioning.
+- Use the first element as the pivot.
+- Use two pointers (start and end) for partitioning.
+- Sort the array in ascending order.
+- Do not use built-in sorting methods.
+
+Test Cases:
+
+Test Case 1:
+Input:
+[7, 6, 10, 5, 9, 2, 1, 15, 7]
+
+Expected Output:
+[1, 2, 5, 6, 7, 7, 9, 10, 15]
+
+Test Case 2:
+Input:
+[5, 4, 3, 2, 1]
+
+Expected Output:
+[1, 2, 3, 4, 5]
+
+Test Case 3:
+Input:
+[1, 2, 3, 4, 5]
+
+Expected Output:
+[1, 2, 3, 4, 5]
+
+Test Case 4:
+Input:
+[8, 3, 8, 2, 5, 3, 1]
+
+Expected Output:
+[1, 2, 3, 3, 5, 8, 8]
+
+Test Case 5:
+Input:
+[10, -5, 0, 25, -10, 15, -2]
+
+Expected Output:
+[-10, -5, -2, 0, 10, 15, 25]
+
+ Important Concepts to Understand:
+
+1. What is a pivot element?
+2. What is partitioning?
+3. Why do we use two pointers?
+4. Why do we swap the pivot with the end pointer?
+5. Why does Quick Sort use recursion?
+6. Why is Quick Sort considered a Divide and Conquer algorithm?
+
+Time and Space Complexity:
+
+Best Case: O(n log n)
+
+Average Case: O(n log n)
+
+Worst Case: O(n²)
+
+Auxiliary Space: O(log n) on average for the recursion stack.
+
+----------------------------------------------------------------------------------------------
