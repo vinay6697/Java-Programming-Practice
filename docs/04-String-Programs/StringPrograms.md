@@ -720,4 +720,54 @@ Output: 0
 
 ----------------------------------------------------------------------------------------------
 
+17. Given a string containing multiple words, convert the first character of every word to uppercase while keeping all the remaining characters unchanged. Return the modified string without altering the original spacing between words.
 
+Explanation:
+
+The input string may contain multiple words separated by spaces. Each word may begin with a lowercase letter, uppercase letter, digit, or special character. The objective is to ensure that the first character of every word is uppercase whenever it is a lowercase English letter. All other characters in the string must remain unchanged. The original spacing, including leading spaces, trailing spaces, and multiple consecutive spaces, must be preserved.
+
+Constraints:
+
+1. The string length can range from 0 to 1000 characters.
+2. The string may contain uppercase letters, lowercase letters, digits, and special characters.
+3. The string may contain leading spaces or trailing spaces.
+4. Multiple consecutive spaces may occur between words.
+5. Only the first character of each word should be converted to uppercase.
+6. All characters other than the first character of each word must remain unchanged.
+7. If the first character of a word is already uppercase, it should remain unchanged.
+
+Test Cases:
+
+Test Case 1:
+Input: "java is easy"
+Output: "Java Is Easy"
+
+Test Case 2:
+Input: "apple banana orange"
+Output: "Apple Banana Orange"
+
+Test Case 3:
+Input: "  java   is   good  "
+Output: "  Java   Is   Good  "
+
+Test Case 4:
+Input: "JAVA developer"
+Output: "JAVA Developer"
+
+Test Case 5:
+Input: "123 hello world"
+Output: "123 Hello World"
+
+Test Case 6:
+Input: "a z"
+Output: "A Z"
+
+Test Case 7:
+Input: ""
+Output: ""
+
+Test Case 8:
+Input: "hello@world java-programming"
+Output: "Hello@world Java-programming"
+
+----------------------------------------------------------------------------------------------
