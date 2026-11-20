@@ -7,7 +7,7 @@ public class ReverseAGivenString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str=sc.nextLine();
-		String result=isReverse(str);
+		String result=reverse(str);
 		System.out.println("Revese of "+str+" is: "+result);
 		sc.close();
 	}
@@ -28,6 +28,12 @@ public class ReverseAGivenString {
 			end--;
 		}
 		return new String(ch);
+	}
+	
+	//another way using StringBuffer
+	public static String reverse(String str)
+	{
+		return new StringBuffer(str).reverse().toString();
 	}
 
 }
