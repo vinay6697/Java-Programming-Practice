@@ -771,3 +771,86 @@ Input: "hello@world java-programming"
 Output: "Hello@world Java-programming"
 
 ----------------------------------------------------------------------------------------------
+
+18 . Given a string containing multiple words separated by spaces, convert the last word of the string into uppercase without modifying the other 	words.
+
+The string may contain multiple words, and the last word should be identified based on its position in the string.
+
+Explanation:
+A sentence consists of multiple words separated by spaces. The task is to identify the last word in the given sentence and convert all the characters of that word into uppercase letters.
+
+The remaining words in the sentence must retain their original case.
+
+The program should return or print the modified sentence with only the last word converted into uppercase.
+
+Constraints:
+1. The string may contain multiple words separated by spaces.
+2. The string contains at least one word.
+3. The words may contain both uppercase and lowercase English letters.
+4. The last word must be converted entirely into uppercase.
+5. All other words must remain unchanged.
+6. The string may contain a mixture of uppercase and lowercase characters.
+
+Test Cases:
+
+Test Case 1:
+Input: Java is a programming language
+Output: Java is a programming LANGUAGE
+
+Test Case 2:
+Input: hello world
+Output: hello WORLD
+
+Test Case 3:
+Input: I love coding
+Output: I love CODING
+
+Test Case 4:
+Input: java programming
+Output: java PROGRAMMING
+
+Test Case 5:
+Input: Welcome to the world of Java
+Output: Welcome to the world of JAVA
+
+---------------------------------------------------------------------------------------------
+
+19. Given a string, reverse the entire string and print the reversed string.
+
+The order of all characters in the string must be reversed, such that the last character of the original string becomes the first character of the reversed string and the first character becomes the last.
+
+Explanation:
+A string is a sequence of characters arranged in a particular order. Reversing a string means changing the order of its characters from the end to the beginning.
+
+The task is to produce a new string in which all the characters of the given string appear in reverse order. The characters themselves must remain unchanged, and only their positions should be reversed.
+
+Constraints:
+1. The input must contain at least one character.
+2. The string may contain uppercase and lowercase English letters.
+3. The string may contain digits or special characters.
+4. The original characters must not be modified or removed.
+5. The output must contain all the characters of the original string in reverse order.
+
+Test Cases:
+
+Test Case 1:
+Input: Java
+Output: avaJ
+
+Test Case 2:
+Input: Hello
+Output: olleH
+
+Test Case 3:
+Input: Programming
+Output: gnimmargorP
+
+Test Case 4:
+Input: 12345
+Output: 54321
+
+Test Case 5:
+Input: Java@123
+Output: 321@avaJ
+
+---------------------------------------------------------------------------------------------
