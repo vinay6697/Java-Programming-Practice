@@ -2257,3 +2257,46 @@ Output: 4
 Explanation: The longest consecutive sequence of 1s is [1, 1, 1, 1], which has a length of 4.
 
 ---------------------------------------------------------------------------------------------
+
+38. Given a string containing multiple words separated by spaces, convert the last word of the string into uppercase without modifying the other 	words.
+
+The string may contain multiple words, and the last word should be identified based on its position in the string.
+
+Explanation:
+A sentence consists of multiple words separated by spaces. The task is to identify the last word in the given sentence and convert all the characters of that word into uppercase letters.
+
+The remaining words in the sentence must retain their original case.
+
+The program should return or print the modified sentence with only the last word converted into uppercase.
+
+Constraints:
+1. The string may contain multiple words separated by spaces.
+2. The string contains at least one word.
+3. The words may contain both uppercase and lowercase English letters.
+4. The last word must be converted entirely into uppercase.
+5. All other words must remain unchanged.
+6. The string may contain a mixture of uppercase and lowercase characters.
+
+Test Cases:
+
+Test Case 1:
+Input: Java is a programming language
+Output: Java is a programming LANGUAGE
+
+Test Case 2:
+Input: hello world
+Output: hello WORLD
+
+Test Case 3:
+Input: I love coding
+Output: I love CODING
+
+Test Case 4:
+Input: java programming
+Output: java PROGRAMMING
+
+Test Case 5:
+Input: Welcome to the world of Java
+Output: Welcome to the world of JAVA
+
+---------------------------------------------------------------------------------------------
