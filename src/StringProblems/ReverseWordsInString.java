@@ -1,5 +1,6 @@
 package StringProblems;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseWordsInString {
@@ -7,7 +8,8 @@ public class ReverseWordsInString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str=sc.nextLine();
-		isReverse(str);
+//		isReverse(str);
+		isReverseWords(str);
 		sc.close();
 	}
 	
@@ -44,5 +46,32 @@ public class ReverseWordsInString {
 			j--;
 		}
 		System.out.println(s);
+	}
+	
+	public static void isReverseWords(String str)
+	{
+		String[] s=str.split("\\s+");
+		
+		int start=0;
+		int end=s.length-1;
+		
+		while(start<end)
+		{
+			String temp=s[start];
+			s[start]=s[end];
+			s[end]=temp;
+			start++;
+			end--;
+		}
+		
+		String reversedWord="";
+		for(int i=0;i<s.length;i++)
+		{
+			reversedWord+=s[i];
+			if(i<s.length-1)
+				reversedWord+=' ';
+		}
+		
+		System.out.println(reversedWord);
 	}
 }
