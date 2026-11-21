@@ -896,3 +896,43 @@ Input: Spring Boot Java Developer
 Output: Developer Java Boot Spring
 
 ---------------------------------------------------------------------------------------------
+
+21 . Reverse the First and Last Character of Each Word in a String
+
+Explanation:
+Given a string containing multiple words, modify each word by swapping its first and last characters. The remaining characters in each word must stay in their original positions. The modification should be performed on every word in the given string, while maintaining the original order of the words.
+
+Example:
+Input: Hello World
+Output: oellH dorlW
+
+Constraints:
+1. The string may contain multiple words separated by spaces.
+2. Each word should contain at least one character.
+3. Only the first and last characters of each word should be swapped.
+4. The order of the words in the string must remain unchanged.
+5. The characters between the first and last positions of each word must remain unchanged.
+
+Test Cases:
+
+Test Case 1:
+Input: Hello World
+Output: oellH dorlW
+
+Test Case 2:
+Input: Java Programming
+Output: aavJ gromminP
+
+Test Case 3:
+Input: Tom And Jerry
+Output: moT dnA yerrJ
+
+Test Case 4:
+Input: Code
+Output: edoC
+
+Test Case 5:
+Input: Spring Boot Java Developer
+Output: gprinS tooB avaJ Developre
+
+---------------------------------------------------------------------------------------------
