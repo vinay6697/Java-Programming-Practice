@@ -5,6 +5,8 @@ A collection of Java programming questions and solutions created during my Java 
 ## Topics Covered
 
 - Number Programs
+- Patterns
+- Arrays
 
 ## Project Structure
 
