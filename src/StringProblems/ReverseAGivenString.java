@@ -35,5 +35,4 @@ public class ReverseAGivenString {
 	{
 		return new StringBuffer(str).reverse().toString();
 	}
-
 }
