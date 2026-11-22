@@ -1,0 +1,83 @@
+Write a Java program to find the missing number in an array containing N-1 distinct integers from the range 1 to N.
+
+The array contains numbers in the range 1 to N, but exactly one
+number is missing.
+
+Your task is to identify and print the missing number.
+
+Explanation:
+
+You are given an array containing N-1 elements, where each element
+is a distinct number between 1 and N.
+
+One number is missing from the sequence.
+
+You need to find that missing number.
+
+Example:
+
+Input:
+N = 5
+Array = [1, 2, 4, 5]
+
+Output:
+3
+
+Explanation:
+The numbers should be:
+1, 2, 3, 4, 5
+
+But the given array contains:
+1, 2, 4, 5
+
+Therefore, 3 is the missing number.
+
+Test Cases:
+
+Test Case 1:
+Input:
+N = 5
+Array = [1, 2, 4, 5]
+
+Output:
+3
+
+Test Case 2:
+Input:
+N = 6
+Array = [1, 2, 3, 4, 5]
+
+Output:
+6
+
+Test Case 3:
+Input:
+N = 7
+Array = [2, 3, 4, 5, 6, 7]
+
+Output:
+1
+
+Test Case 4:
+Input:
+N = 8
+Array = [1, 2, 3, 5, 6, 7, 8]
+
+Output:
+4
+
+Test Case 5:
+Input:
+N = 10
+Array = [1, 2, 3, 4, 5, 6, 7, 8, 10]
+
+Output:
+9
+
+Constraints:
+
+1. 2 <= N <= 10^5
+2. Array contains exactly N-1 elements.
+3. All elements are distinct.
+4. Every element belongs to the range 1 to N.
+5. Exactly one number is missing.

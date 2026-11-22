@@ -1,0 +1,52 @@
+Given an array containing only 0s and 1s, find the maximum number of consecutive 1s present in the array.
+
+Consecutive 1s means that the value 1 appears continuously without interruption by a 0.
+
+Return the maximum count of consecutive 1s found in the array.
+
+Explanation:
+Traverse the array from left to right.
+
+Maintain two variables:
+1. count - keeps track of the current consecutive count of 1s.
+2. maxCount - stores the maximum consecutive count of 1s found so far.
+
+Whenever the current element is 1, increment count and update maxCount if count is greater than maxCount.
+
+Whenever the current element is 0, reset count to 0 because the consecutive sequence of 1s is interrupted.
+
+After traversing the entire array, maxCount represents the maximum consecutive 1s.
+
+Constraints:
+1. The array contains only 0s and 1s.
+2. The array must contain at least one element.
+3. The array length can range from 1 to 10^5.
+4. The solution should be achieved in O(n) time complexity.
+5. The solution should use O(1) extra space complexity.
+
+Test Cases:
+
+Test Case 1:
+Input: [1, 1, 0, 1, 1, 1]
+Output: 3
+Explanation: The maximum consecutive 1s are present in the sequence [1, 1, 1], which has a length of 3.
+
+Test Case 2:
+Input: [1, 0, 1, 1, 0, 1]
+Output: 2
+Explanation: The longest consecutive sequence of 1s is [1, 1], which has a length of 2.
+
+Test Case 3:
+Input: [0, 0, 0, 0]
+Output: 0
+Explanation: The array contains no 1s, so the maximum consecutive count is 0.
+
+Test Case 4:
+Input: [1, 1, 1, 1, 1]
+Output: 5
+Explanation: All elements are 1, so the maximum consecutive count is 5.
+
+Test Case 5:
+Input: [1, 0, 1, 1, 1, 1, 0, 1, 1]
+Output: 4
+Explanation: The longest consecutive sequence of 1s is [1, 1, 1, 1], which has a length of 4.
