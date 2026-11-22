@@ -1,0 +1,48 @@
+ First Minimum Element in an Array
+
+Question:
+Write a Java program to find the first minimum element in a given array. If the minimum element appears more than once, consider its first occurrence.
+
+Explanation:
+Traverse the array and compare each element with the current minimum element. Update the minimum whenever a smaller element is found. The final minimum value is the first minimum element in the array.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+First minimum element is: 7
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   First minimum element is: 7
+
+2. Input: [-20, 10, 30, 40, 50]
+   Expected Output:
+   First minimum element is: -20
+
+3. Input: [10, 20, 30, 40, -50]
+   Expected Output:
+   First minimum element is: -50
+
+4. Input: [10, 5, 20, 5, 30, 5]
+   Expected Output:
+   First minimum element is: 5
+
+5. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   First minimum element is: -20
+
+6. Input: [7, 7, 7, 7]
+   Expected Output:
+   First minimum element is: 7
+
+7. Input: [25]
+   Expected Output:
+   First minimum element is: 25
+
+8. Input: []
+   Expected Output:
+   No results
+

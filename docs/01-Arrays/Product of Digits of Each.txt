@@ -1,0 +1,46 @@
+Find the Product of Digits of Each Element in an Array
+
+Question:
+Write a Java program to find the product of digits of each element in a given array.
+
+Explanation:
+Extract each digit of every array element using the modulo (%) operator and remove the last digit using the division (/) operator. Multiply all the extracted digits to calculate the product of digits of each element. For negative numbers, calculate the product using the absolute value of the number. If any digit is zero, the product of digits will be zero.
+
+Example Input:
+[123, 234, 405, 56]
+
+Expected Output:
+Product of 123 is: 6
+Product of 234 is: 24
+Product of 405 is: 0
+Product of 56 is: 30
+
+Test Cases:
+
+1. Input: [123, 234]
+   Expected Output: 
+	Product of 123 is: 6, 
+	Product of 234 is: 24
+
+2. Input: [0, 10, 100]
+   Expected Output: 
+	Product of 0 is: 0, 
+	Product of 10 is: 0, 
+	Product of 100 is: 0
+
+3. Input: [999, 1234]
+   Expected Output: 
+	Product of 999 is: 729, 
+	Product of 1234 is: 24
+
+4. Input: [-123, -456]
+   Expected Output: 
+	Product of -123 is: 6, 
+	Product of -456 is: 120
+
+5. Input: [7]
+   Expected Output: 
+	Product of 7 is: 7
+
+6. Input: []
+   Expected Output: No results

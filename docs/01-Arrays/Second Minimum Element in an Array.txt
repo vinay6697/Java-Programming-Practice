@@ -1,0 +1,36 @@
+Second Minimum Element in an Array
+
+Question:
+Write a Java program to find the second minimum distinct element in a given array. If the minimum element appears more than once, consider it only once when finding the second minimum element.
+
+Explanation:
+Traverse the array and identify the smallest and second-smallest distinct elements. If an element is smaller than the current minimum, update the second minimum with the current minimum and then update the minimum. Otherwise, if an element is greater than the minimum but smaller than the current second minimum, update the second minimum. If the array contains fewer than two distinct elements, display an appropriate message.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+Second minimum element is: 10
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   Second minimum element is: 10
+
+2. Input: [10, 5, 20, 5, 30, 5]
+   Expected Output:
+   Second minimum element is: 10
+
+3. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   Second minimum element is: -15
+
+4. Input: [7, 7, 7, 7]
+   Expected Output:
+   Second minimum element does not exist
+
+5. Input: [25]
+   Expected Output:
+   Second minimum element does not exist
+

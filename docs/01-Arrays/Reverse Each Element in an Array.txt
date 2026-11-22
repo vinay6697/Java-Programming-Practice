@@ -1,0 +1,49 @@
+Reverse Each Element in an Array
+
+Question:
+Write a Java program to reverse the digits of each element in a given array.
+
+Explanation:
+Extract the last digit of each array element using the modulo (%) operator and remove the last digit using the division (/) operator. Construct the reversed number by multiplying the current reversed number by 10 and adding the extracted digit. Repeat until all digits have been processed. For negative numbers, reverse the digits of the absolute value and preserve the original negative sign. Leading zeros in the reversed number are not preserved because the result is an integer.
+
+Example Input:
+[123, 456, 120, 789]
+
+Expected Output:
+Reverse of 123 is: 321
+Reverse of 456 is: 654
+Reverse of 120 is: 21
+Reverse of 789 is: 987
+
+Test Cases:
+
+1. Input: [123, 456]
+  Expected Output:
+ 	 Reverse of 123 is: 321,
+  	Reverse of 456 is: 654
+
+2. Input: [10, 100, 120]
+   Expected Output: 
+	Reverse of 10 is: 1, 
+	Reverse of 100 is: 1, 
+	Reverse of 120 is: 21
+
+3. Input: [0, 7, 99]
+   Expected Output: 
+	Reverse of 0 is: 0, 
+	Reverse of 7 is: 7,
+	Reverse of 99 is: 99
+
+4. Input: [-123, -456]
+   Expected Output: 
+	Reverse of -123 is: -321, 
+	Reverse of -456 is: -654
+
+5. Input: [1234, 5678]
+   Expected Output: 
+	Reverse of 1234 is: 4321, 
+	Reverse of 5678 is: 8765
+
+6. Input: []
+   Expected Output: No results
+

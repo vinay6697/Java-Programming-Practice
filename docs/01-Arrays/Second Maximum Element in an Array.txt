@@ -1,0 +1,36 @@
+Second Maximum Element in an Array
+
+Question:
+Write a Java program to find the second maximum distinct element in a given array. If the maximum element appears more than once, consider it only once when finding the second maximum element.
+
+Explanation:
+Traverse the array and identify the largest and second-largest distinct elements. If an element is greater than the current maximum, update the second maximum with the current maximum and then update the maximum. Otherwise, if the element is smaller than the maximum but greater than the current second maximum, update the second maximum. If the array contains fewer than two distinct elements, display an appropriate message.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+Second maximum element is: 25
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   Second maximum element is: 25
+
+2. Input: [10, 50, 20, 50, 30, 50]
+   Expected Output:
+   Second maximum element is: 30
+
+3. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   Second maximum element is: -5
+
+4. Input: [7, 7, 7, 7]
+   Expected Output:
+   Second maximum element does not exist
+
+5. Input: [25]
+   Expected Output:
+   Second maximum element does not exist
+

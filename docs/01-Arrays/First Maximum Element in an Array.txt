@@ -1,0 +1,48 @@
+First Maximum Element in an Array
+
+Question:
+Write a Java program to find the first maximum element in a given array. If the maximum element appears more than once, consider its first occurrence.
+
+Explanation:
+Traverse the array and compare each element with the current maximum element. Update the maximum whenever a larger element is found. The final maximum value is the first maximum element in the array.
+
+Example Input:
+[10, 25, 7, 40, 15]
+
+Expected Output:
+First maximum element is: 40
+
+Test Cases:
+
+1. Input: [10, 25, 7, 40, 15]
+   Expected Output:
+   First maximum element is: 40
+
+2. Input: [50, 20, 30, 10, 40]
+   Expected Output:
+   First maximum element is: 50
+
+3. Input: [10, 20, 30, 40, 50]
+   Expected Output:
+   First maximum element is: 50
+
+4. Input: [10, 50, 20, 50, 30, 50]
+   Expected Output:
+   First maximum element is: 50
+
+5. Input: [-10, -5, -20, -3, -15]
+   Expected Output:
+   First maximum element is: -3
+
+6. Input: [7, 7, 7, 7]
+   Expected Output:
+   First maximum element is: 7
+
+7. Input: [25]
+   Expected Output:
+   First maximum element is: 25
+
+8. Input: []
+   Expected Output:
+   No results
+
