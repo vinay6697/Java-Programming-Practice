@@ -15,5 +15,4 @@ public class MultiplicationTable {
 		}
 		sc.close();
 	}
-
 }

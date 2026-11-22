@@ -11,7 +11,7 @@ public class DecimalToBinary {
 
 		while (n > 0) {
 			int digit = n % 2;
-			str = str + digit;
+			str = digit+str;
 			n = n / 2;
 		}
 

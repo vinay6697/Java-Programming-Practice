@@ -1,0 +1,65 @@
+Check Whether a Given Number is a Buzz Number
+
+EXPLANATION:
+
+Write a Java program to check whether a given number is a Buzz Number or not.
+
+A Buzz Number is a number that is either divisible by 7 or ends with the digit 7.
+
+The program should accept an integer as input and check whether the given number satisfies either of these conditions.
+
+If the number is divisible by 7 or its last digit is 7, it is considered a Buzz Number. Otherwise, it is not a Buzz Number.
+
+For example:
+
+If the input number is 42,
+
+42 is divisible by 7.
+
+Since the number is divisible by 7, 42 is a Buzz Number.
+
+Another example:
+
+If the input number is 17,
+
+The last digit of 17 is 7.
+
+Since the number ends with 7, 17 is also a Buzz Number.
+
+
+CONSTRAINTS:
+
+1. The input must be a non-negative integer.
+2. The number must be checked for divisibility by 7.
+3. The last digit of the number must be checked for whether it is 7.
+4. If the number is divisible by 7 OR its last digit is 7, it is a Buzz Number.
+5. If neither condition is satisfied, it is not a Buzz Number.
+6. The program must display the appropriate result based on the given conditions.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 42
+Output: Buzz Number
+
+
+Test Case 2:
+Input: 17
+Output: Buzz Number
+
+
+Test Case 3:
+Input: 49
+Output: Buzz Number
+
+
+Test Case 4:
+Input: 23
+Output: Not a Buzz Number
+
+
+Test Case 5:
+Input: 7
+Output: Buzz Number
