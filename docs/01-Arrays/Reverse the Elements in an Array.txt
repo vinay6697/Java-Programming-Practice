@@ -1,0 +1,30 @@
+Reverse the Elements in an Array
+
+Question:
+Write a Java program to reverse the elements of a given array.
+
+Explanation:
+Rearrange the array elements in reverse order, placing the last element first and the first element last.
+
+Example Input:
+[10, 20, 30, 40, 50]
+
+Expected Output:
+[50, 40, 30, 20, 10]
+
+Test Cases:
+
+1. Input: [1, 2, 3]
+   Expected Output: [3, 2, 1]
+
+2. Input: [10, 20, 30, 40]
+   Expected Output: [40, 30, 20, 10]
+
+3. Input: [5]
+   Expected Output: [5]
+
+4. Input: []
+   Expected Output: []
+
+5. Input: [1, 2, 2, 3]
+   Expected Output: [3, 2, 2, 1]

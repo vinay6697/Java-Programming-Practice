@@ -1,0 +1,42 @@
+Check Whether an Array Is a Palindrome
+
+Question:
+Write a Java program to check whether a given array is a palindrome array or not.
+
+Explanation:
+An array is called a palindrome array if its elements remain the same when read from left to right and from right to left. Compare the elements from both ends of the array. If all corresponding elements are equal, the array is a palindrome; otherwise, it is not a palindrome.
+
+Example Input:
+[1, 2, 3, 2, 1]
+
+Expected Output:
+Palindrome array
+
+Test Cases:
+
+1. Input: [1, 2, 3, 2, 1]
+   Expected Output: Palindrome array
+
+2. Input: [1, 2, 3, 4, 5]
+   Expected Output: Not a palindrome array
+
+3. Input: [7]
+   Expected Output: Palindrome array
+
+4. Input: [1, 2, 2, 1]
+   Expected Output: Palindrome array
+
+5. Input: [5, 5, 5, 5]
+   Expected Output: Palindrome array
+
+6. Input: [-1, 2, 0, 2, -1]
+   Expected Output: Palindrome array
+
+7. Input: [1, 2, 3, 1]
+   Expected Output: Not a palindrome array
+
+8. Input: [0, 0, 0]
+   Expected Output: Palindrome array
+
+9. Input: []
+   Expected Output: Palindrome array (if an empty array is allowed)
