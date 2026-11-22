@@ -1,0 +1,33 @@
+ Find the Product of Elements in an Array
+
+Question:
+Write a Java program to find the product of all elements in a given array.
+
+Explanation:
+Multiply all the elements of the array and display the final product.
+
+Example Input:
+[2, 3, 4, 5]
+
+Expected Output:
+Product of array elements: 120
+
+Test Cases:
+
+1. Input: [2, 3, 4]
+   Expected Output: 24
+
+2. Input: [5]
+   Expected Output: 5
+
+3. Input: [1, 2, 3]
+   Expected Output: 6
+
+4. Input: [2, 0, 5]
+   Expected Output: 0
+
+5. Input: [-2, 3, 4]
+   Expected Output: -24
+
+6. Input: []
+   Expected Output: 1 (if using the conventional empty-product definition)

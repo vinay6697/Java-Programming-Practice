@@ -1,0 +1,33 @@
+ Find the Average of Array Elements
+
+Question:
+Write a Java program to find the average of all elements in a given array.
+
+Explanation:
+Calculate the sum of all array elements and divide it by the total number of elements.
+
+Example Input:
+[10, 20, 30, 40, 50]
+
+Expected Output:
+Average of array elements: 30.0
+
+Test Cases:
+
+1. Input: [10, 20, 30]
+   Expected Output: 20.0
+
+2. Input: [5]
+   Expected Output: 5.0
+
+3. Input: [1, 2, 3, 4]
+   Expected Output: 2.5
+
+4. Input: [-10, 20, 30]
+   Expected Output: 13.3333...
+
+5. Input: [0, 0, 0]
+   Expected Output: 0.0
+
+6. Input: []
+   Expected Output: Undefined (handle the empty array separately to avoid division by zero)

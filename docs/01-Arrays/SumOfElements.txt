@@ -1,0 +1,30 @@
+Find the Sum of Elements in an Array
+
+Question:
+Write a Java program to find the sum of all elements in a given array.
+
+Explanation:
+Add all the elements of the array and display their total sum.
+
+Example Input:
+[10, 20, 30, 40]
+
+Expected Output:
+Sum of array elements: 100
+
+Test Cases:
+
+1. Input: [1, 2, 3]
+   Expected Output: 6
+
+2. Input: [10, 20, 30]
+   Expected Output: 60
+
+3. Input: [5]
+   Expected Output: 5
+
+4. Input: [-1, 2, -3]
+   Expected Output: -2
+
+5. Input: []
+   Expected Output: 0
