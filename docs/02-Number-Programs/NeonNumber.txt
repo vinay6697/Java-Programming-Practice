@@ -1,0 +1,60 @@
+Check Whether a Given Number is a Neon Number
+
+EXPLANATION:
+
+Write a Java program to check whether a given number is a Neon Number or not.
+
+A Neon Number is a number in which the sum of the digits of its square is equal to the original number.
+
+The program should accept an integer as input, calculate its square, extract the digits of the squared value, and calculate the sum of those digits.
+
+If the sum of the digits of the square is equal to the original number, it is considered a Neon Number. Otherwise, it is not a Neon Number.
+
+For example:
+
+If the input number is 9,
+
+Square of 9 = 9 * 9 = 81
+
+Sum of the digits of 81 = 8 + 1 = 9
+
+Since the sum of the digits of the square is equal to the original number, 9 is a Neon Number.
+
+
+CONSTRAINTS:
+
+1. The input must be a non-negative integer.
+2. The square of the given number must be calculated.
+3. Each digit of the squared number must be extracted.
+4. The sum of the digits of the squared number must be calculated.
+5. The calculated digit sum must be compared with the original number.
+6. If both values are equal, the number is a Neon Number.
+7. Otherwise, it is not a Neon Number.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 9
+Output: Neon Number
+
+
+Test Case 2:
+Input: 1
+Output: Neon Number
+
+
+Test Case 3:
+Input: 0
+Output: Neon Number
+
+
+Test Case 4:
+Input: 10
+Output: Not a Neon Number
+
+
+Test Case 5:
+Input: 12
+Output: Not a Neon Number
