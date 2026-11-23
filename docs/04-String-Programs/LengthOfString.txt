@@ -1,0 +1,31 @@
+Write a Java program to find the length of a given String without using the built-in length() method.
+
+Explanation:
+
+1. Take a String as input from the user.
+2. Find the number of characters present in the String without using the length() method.
+3. Use a looping mechanism to traverse the String.
+4. Maintain a counter variable and increment it for every character.
+5. Display the total number of characters as the length of the String.
+
+Test Cases:
+
+Test Case 1
+Input: Java
+Expected Output: Length: 4
+
+Test Case 2
+Input: Hello World
+Expected Output: Length: 11
+
+Test Case 3
+Input: Programming
+Expected Output: Length: 11
+
+Test Case 4
+Input: 1234567890
+Expected Output: Length: 10
+
+Test Case 5
+Input: Empty String
+Expected Output: Length: 0
