@@ -1,0 +1,39 @@
+Reverse Words in a String
+
+Explanation:
+Given a string containing multiple words separated by spaces, rearrange the words in reverse order while keeping the characters of each individual word unchanged.
+
+The order of the words should be reversed, but the spelling of each word should remain the same.
+
+Example:
+Input: Tom And Jerry
+Output: Jerry And Tom
+
+Constraints:
+1. The string may contain multiple words separated by spaces.
+2. Each word must retain its original character order.
+3. The order of words must be reversed.
+4. Words are separated by spaces.
+5. The input string may contain at least one word.
+
+Test Cases:
+
+Test Case 1:
+Input: Tom And Jerry
+Output: Jerry And Tom
+
+Test Case 2:
+Input: Java Is Powerful
+Output: Powerful Is Java
+
+Test Case 3:
+Input: I Love Programming
+Output: Programming Love I
+
+Test Case 4:
+Input: Hello World
+Output: World Hello
+
+Test Case 5:
+Input: Spring Boot Java Developer
+Output: Developer Java Boot Spring
