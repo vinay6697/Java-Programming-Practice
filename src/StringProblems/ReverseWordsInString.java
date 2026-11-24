@@ -9,7 +9,8 @@ public class ReverseWordsInString {
 		System.out.println("Enter the String");
 		String str=sc.nextLine();
 //		isReverse(str);
-		isReverseWords(str);
+//		isReverseWords(str);
+		reverseWordsUsingSplit(str);
 		sc.close();
 	}
 	
@@ -73,5 +74,32 @@ public class ReverseWordsInString {
 		}
 		
 		System.out.println(reversedWord);
+	}
+	
+	public static void reverseWordsUsingSplit(String str)
+	{
+		String[] s=str.split("\\s+");
+		int start=0;
+		int end=s.length-1;
+		
+		while(start<end)
+		{
+			String s1=s[start];
+			s[start]=s[end];
+			s[end]=s1;
+			
+			start++;
+			end--;
+		}
+		
+		String finalString="";
+		for(int i=0;i<s.length;i++)
+		{
+			finalString+=s[i];
+			if(i<s.length-1)
+				finalString+=' ';
+		}
+		
+		System.out.println(finalString);
 	}
 }

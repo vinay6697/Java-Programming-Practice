@@ -1,0 +1,61 @@
+Replace a Given Character with a Specified Character in a String
+
+Write a Java program to replace all occurrences of a given character in a string with another specified character.
+
+Explanation:
+
+You are given a string, an existing character, and a replacement character. Replace every occurrence of the existing character in the given string with the specified replacement character and display the modified string.
+
+Constraints:
+1. The string can contain uppercase letters, lowercase letters, digits, and special characters.
+2. The character to be replaced must be a single character.
+3. The replacement character must be a single character.
+4. The replacement operation must be case-sensitive.
+5. If the character to be replaced is not present in the string, display the original string.
+
+Test Cases:
+
+Test Case 1:
+Input:
+Enter the String: programming
+Enter the character to replace: m
+Enter the replacement character: z
+
+Output:
+prograzzing
+
+Test Case 2:
+Input:
+Enter the String: banana
+Enter the character to replace: a
+Enter the replacement character: o
+
+Output:
+bonono
+
+Test Case 3:
+Input:
+Enter the String: Hello World
+Enter the character to replace: l
+Enter the replacement character: x
+
+Output:
+Hexxo Worxd
+
+Test Case 4:
+Input:
+Enter the String: Java Programming
+Enter the character to replace: z
+Enter the replacement character: x
+
+Output:
+Java Programming
+
+Test Case 5:
+Input:
+Enter the String: AaAa
+Enter the character to replace: A
+Enter the replacement character: b
+
+Output:
+baba

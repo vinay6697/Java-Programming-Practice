@@ -8,6 +8,7 @@ public class NeonNumber {
 		System.out.println("Enter the number");
 		int n=sc.nextInt();
 		isNeonNumber(n);
+		sc.close();
 	}
 	
 	public static void isNeonNumber(int n )
