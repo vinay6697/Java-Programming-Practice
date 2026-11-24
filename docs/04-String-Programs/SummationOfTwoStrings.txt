@@ -1,0 +1,55 @@
+Write a Java program to accept two numeric Strings from the user, convert them into integers, and find their sum.
+
+Explanation:
+
+1. Read two Strings from the user using Scanner.
+2. Pass both Strings to a separate method named `isSum()`.
+3. Use Integer.parseInt() to convert the Strings into integer values.
+4. Add both integer values using the `+` operator.
+5. Display the final summation.
+
+Example:
+
+Input:
+First String: "100"
+Second String: "200"
+
+Output:
+Sum of 100 and 200 is: 300
+
+Test Cases:
+
+Test Case 1:
+Input:
+s1 = "100"
+s2 = "200"
+Output:
+300
+
+Test Case 2:
+Input:
+s1 = "50"
+s2 = "75"
+Output:
+125
+
+Test Case 3:
+Input:
+s1 = "0"
+s2 = "100"
+Output:
+100
+
+Test Case 4:
+Input:
+s1 = "-25"
+s2 = "50"
+Output:
+25
+
+Test Case 5:
+Input:
+s1 = "1000"
+s2 = "2000"
+Output:
+3000

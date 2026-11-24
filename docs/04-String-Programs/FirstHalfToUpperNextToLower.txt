@@ -1,0 +1,33 @@
+Write a Java program to accept a String from the user and convert the first half of the String into uppercase and the second half into lowercase.
+
+Test Cases:
+
+Test Case 1: Even Length
+Input:
+str = "JAVA"
+Output:
+JAva
+
+Test Case 2: Even Length
+Input:
+str = "HELLOWORLD"
+Output:
+HELLOworld
+
+Test Case 3: Odd Length
+Input:
+str = "ABCDEFGHI"
+Output:
+ABCDEfghi
+
+Test Case 4: Odd Length
+Input:
+str = "welcome"
+Output:
+WELCme
+
+Test Case 5: Odd Length
+Input:
+str = "programming"
+Output:
+PROGRAming

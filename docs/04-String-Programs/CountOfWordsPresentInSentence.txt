@@ -1,0 +1,35 @@
+.Given a string containing a sentence, find and return the total number of words present in that sentence. A word is defined as a sequence of non-space characters separated by one or more spaces. The sentence may contain leading spaces, trailing spaces, or multiple consecutive spaces between words.
+
+Explanation
+
+The input consists of a sentence that may contain words separated by spaces. The objective is to determine how many individual words are present in the given sentence, regardless of the number of spaces between them. Spaces at the beginning or end of the sentence should not be considered as words, and multiple consecutive spaces should be treated as a single separator.
+
+Constraints:
+
+1. The input string may contain uppercase letters, lowercase letters, digits, and spaces.
+2. The sentence may contain leading spaces or trailing spaces.
+3. Multiple consecutive spaces may occur between words.
+4. The string may be empty.
+5. The string length can range from 0 to 1000 characters.
+
+Test Cases:
+
+Test Case 1:
+Input: "Java is a powerful language"
+Output: 5
+
+Test Case 2:
+Input: "Hello World"
+Output: 2
+
+Test Case 3:
+Input: "  Java   is    easy  "
+Output: 3
+
+Test Case 4:
+Input: "Programming"
+Output: 1
+
+Test Case 5:
+Input: ""
+Output: 0
