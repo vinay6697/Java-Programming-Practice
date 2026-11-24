@@ -1,0 +1,37 @@
+Given a string, reverse the entire string and print the reversed string.
+
+The order of all characters in the string must be reversed, such that the last character of the original string becomes the first character of the reversed string and the first character becomes the last.
+
+Explanation:
+A string is a sequence of characters arranged in a particular order. Reversing a string means changing the order of its characters from the end to the beginning.
+
+The task is to produce a new string in which all the characters of the given string appear in reverse order. The characters themselves must remain unchanged, and only their positions should be reversed.
+
+Constraints:
+1. The input must contain at least one character.
+2. The string may contain uppercase and lowercase English letters.
+3. The string may contain digits or special characters.
+4. The original characters must not be modified or removed.
+5. The output must contain all the characters of the original string in reverse order.
+
+Test Cases:
+
+Test Case 1:
+Input: Java
+Output: avaJ
+
+Test Case 2:
+Input: Hello
+Output: olleH
+
+Test Case 3:
+Input: Programming
+Output: gnimmargorP
+
+Test Case 4:
+Input: 12345
+Output: 54321
+
+Test Case 5:
+Input: Java@123
+Output: 321@avaJ
