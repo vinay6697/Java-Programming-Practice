@@ -1,0 +1,36 @@
+Write a Java program to convert all uppercase characters in a given string into lowercase characters.
+
+The program should convert only uppercase alphabets (A-Z) into their corresponding lowercase alphabets (a-z). All other characters, including lowercase letters, digits, spaces, and special characters, should remain unchanged.
+
+EXPLANATION:
+1. Read a string from the user.
+2. Traverse each character of the string using a loop.
+3. Check whether the character is between 'A' and 'Z'.
+4. If the character is uppercase, convert it into its corresponding lowercase character.
+5. If the character is not uppercase, leave it unchanged.
+6. Print the resulting string.
+
+TEST CASES:
+
+Test Case 1:
+Input: HELLO
+Output: hello
+
+Test Case 2:
+Input: JAVA PROGRAMMING
+Output: java programming
+
+Test Case 3:
+Input: Hello World
+Output: hello world
+
+Test Case 4:
+Input: JAVA123
+Output: java123
+
+Test Case 5:
+Input: HELLO@123
+Output: hello@123
+
+EXPECTED OUTPUT:
+The program should convert all uppercase characters in the given string into lowercase characters while keeping all other characters unchanged.
