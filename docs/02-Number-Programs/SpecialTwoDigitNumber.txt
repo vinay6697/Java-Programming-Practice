@@ -1,0 +1,65 @@
+Check Whether a Given Number is a Special Two-Digit Number
+
+
+EXPLANATION:
+
+Write a Java program to check whether a given two-digit number is a Special Two-Digit Number or not.
+
+A Special Two-Digit Number is a two-digit number in which the sum of its digits and the product of its digits, when added together, is equal to the original number.
+
+The program should accept a two-digit number as input, extract its individual digits, calculate their sum and product, and check whether the total is equal to the original number.
+
+For example:
+
+If the input number is 59,
+
+First digit = 5
+Second digit = 9
+
+Sum of digits = 5 + 9 = 14
+
+Product of digits = 5 * 9 = 45
+
+Total = 14 + 45 = 59
+
+Since the total is equal to the original number, 59 is a Special Two-Digit Number.
+
+
+CONSTRAINTS:
+
+1. The input must be a two-digit positive integer.
+2. The number must contain exactly two digits.
+3. The individual digits must be extracted from the given number.
+4. The sum of the two digits must be calculated.
+5. The product of the two digits must be calculated.
+6. The sum and product must be added together.
+7. If the final result is equal to the original number, it is a Special Two-Digit Number.
+8. Otherwise, it is not a Special Two-Digit Number.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 59
+Output: Special Two-Digit Number
+
+
+Test Case 2:
+Input: 29
+Output: Special Two-Digit Number
+
+
+Test Case 3:
+Input: 19
+Output: Not a Special Two-Digit Number
+
+
+Test Case 4:
+Input: 10
+Output: Not a Special Two-Digit Number
+
+
+Test Case 5:
+Input: 99
+Output: Not a Special Two-Digit Number
