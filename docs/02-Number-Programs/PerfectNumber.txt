@@ -1,0 +1,68 @@
+Check Whether a Given Number is a Perfect Number
+
+
+EXPLANATION:
+
+Write a Java program to check whether a given number is a Perfect Number or not.
+
+A Perfect Number is a positive integer that is equal to the sum of all its proper divisors, excluding the number itself.
+
+The program should accept an integer as input and calculate the sum of all its proper divisors.
+
+If the sum of the proper divisors is equal to the original number, the given number is considered a Perfect Number. Otherwise, it is not a Perfect Number.
+
+For example:
+
+If the input number is 6,
+
+The proper divisors of 6 are 1, 2 and 3.
+
+Sum = 1 + 2 + 3 = 6
+
+Since the sum of its proper divisors is equal to the original number, 6 is a Perfect Number.
+
+		eg : 6 The Divisors are 1,2,3 not 6 
+		where 1+2+3=6
+		
+		other perfect numbers are 
+		28,496,8128
+		
+		Here the sum of the divisors are  equal to the number itself
+
+
+CONSTRAINTS:
+
+1. The input must be a positive integer.
+2. The number itself must not be included when calculating its proper divisors.
+3. Only the divisors that divide the given number without leaving a remainder must be considered.
+4. The sum of all proper divisors must be calculated.
+5. If the sum is equal to the original number, it is a Perfect Number.
+6. If the sum is not equal to the original number, it is not a Perfect Number.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 6
+Output: Perfect Number
+
+
+Test Case 2:
+Input: 28
+Output: Perfect Number
+
+
+Test Case 3:
+Input: 12
+Output: Not a Perfect Number
+
+
+Test Case 4:
+Input: 1
+Output: Not a Perfect Number
+
+
+Test Case 5:
+Input: 496
+Output: Perfect Number
