@@ -1,0 +1,92 @@
+Table  Format
+
+Write a Java program to print the multiplication table for a given number from 1 to 10.
+
+Explanation:
+1. Read an integer from the user.
+2. Use a loop to iterate from 1 to 10.
+3. Multiply the given number by the current loop value.
+4. Print the multiplication expression along with its result.
+
+Constraints:
+1. The input must be a positive integer.
+2. The multiplication table must be printed from 1 to 10.
+3. Use a loop to generate the multiplication table.
+4. Display the output in the format: number * multiplier = result.
+
+Test Cases:
+
+Test Case 1:
+Input: 5
+
+Output:
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+Test Case 2:
+Input: 2
+
+Output:
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+Test Case 3:
+Input: 7
+
+Output:
+7 * 1 = 7
+7 * 2 = 14
+7 * 3 = 21
+7 * 4 = 28
+7 * 5 = 35
+7 * 6 = 42
+7 * 7 = 49
+7 * 8 = 56
+7 * 9 = 63
+7 * 10 = 70
+
+Test Case 4:
+Input: 10
+
+Output:
+10 * 1 = 10
+10 * 2 = 20
+10 * 3 = 30
+10 * 4 = 40
+10 * 5 = 50
+10 * 6 = 60
+10 * 7 = 70
+10 * 8 = 80
+10 * 9 = 90
+10 * 10 = 100
+
+Test Case 5:
+Input: 12
+
+Output:
+12 * 1 = 12
+12 * 2 = 24
+12 * 3 = 36
+12 * 4 = 48
+12 * 5 = 60
+12 * 6 = 72
+12 * 7 = 84
+12 * 8 = 96
+12 * 9 = 108
+12 * 10 = 120
