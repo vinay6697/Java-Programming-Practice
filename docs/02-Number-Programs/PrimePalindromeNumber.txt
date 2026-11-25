@@ -1,0 +1,75 @@
+Check Whether a Given Number is a Prime Palindrome Number
+
+EXPLANATION:
+
+Write a Java program to check whether a given number is a Prime Palindrome Number or not.
+
+A Prime Palindrome Number is a number that satisfies two conditions:
+
+1. The number must be a Prime Number.
+2. The number must be a Palindrome Number.
+
+A Prime Number is a natural number greater than 1 that has exactly two factors: 1 and itself.
+
+A Palindrome Number is a number that remains the same when its digits are reversed.
+
+The program should accept an integer as input and check whether the given number satisfies both conditions.
+
+If the number is both prime and palindrome, it is considered a Prime Palindrome Number. Otherwise, it is not a Prime Palindrome Number.
+
+For example:
+
+If the input number is 131,
+
+Prime Number Check:
+131 has exactly two factors: 1 and 131.
+
+Palindrome Check:
+Reverse of 131 is 131.
+
+Since 131 is both prime and palindrome, it is a Prime Palindrome Number.
+
+
+CONSTRAINTS:
+
+1. The input must be an integer.
+2. The number must be greater than 1 to qualify as a prime number.
+3. The number must have exactly two factors: 1 and itself.
+4. The reverse of the given number must be equal to the original number.
+5. Both prime number and palindrome conditions must be satisfied.
+6. If either condition fails, the number is not a Prime Palindrome Number.
+7. Negative numbers, 0 and 1 are not Prime Palindrome Numbers.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 131
+Output: Prime Palindrome Number
+
+
+Test Case 2:
+Input: 151
+Output: Prime Palindrome Number
+
+
+Test Case 3:
+Input: 121
+Output: Not a Prime Palindrome Number
+
+Explanation:
+121 is a palindrome but not a prime number.
+
+
+Test Case 4:
+Input: 13
+Output: Not a Prime Palindrome Number
+
+Explanation:
+13 is a prime number but not a palindrome.
+
+
+Test Case 5:
+Input: 2
+Output: Prime Palindrome Number
