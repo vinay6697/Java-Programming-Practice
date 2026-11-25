@@ -1,0 +1,58 @@
+Remove the First Digit from a Given Number
+
+
+EXPLANATION:
+
+Write a Java program to remove the first (leftmost) digit from a given number.
+
+The program should accept an integer as input and remove its first digit while preserving the order of the remaining digits.
+
+The first digit refers to the leftmost digit of the given number.
+
+For example:
+
+If the input number is 12345,
+
+After removing the first digit, the remaining number is 2345.
+
+If the input number contains only one digit, removing the first digit should result in 0.
+
+The program should perform the operation without converting the number into a String.
+
+
+CONSTRAINTS:
+
+1. The input must be a non-negative integer.
+2. The first digit refers to the leftmost digit of the number.
+3. Only the first digit must be removed.
+4. The remaining digits must maintain their original order.
+5. If the number contains only one digit, the output must be 0.
+6. The program must not use String conversion methods to remove the first digit.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 12345
+Output: 2345
+
+
+Test Case 2:
+Input: 9876
+Output: 876
+
+
+Test Case 3:
+Input: 10025
+Output: 25
+
+
+Test Case 4:
+Input: 7
+Output: 0
+
+
+Test Case 5:
+Input: 543210
+Output: 43210

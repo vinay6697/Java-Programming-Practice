@@ -1,0 +1,61 @@
+QUESTION: Reverse a Given Number
+
+
+EXPLANATION:
+
+Write a Java program to reverse the digits of a given number.
+
+The program should accept an integer as input and reverse the order of its digits.
+
+The reversed number should be formed by reading the digits of the original number from right to left.
+
+For example:
+
+If the input number is 12345,
+
+The reversed number is 54321.
+
+If the input number contains trailing zeros, those zeros will not appear at the beginning of the reversed number because leading zeros are not preserved in integer representation.
+
+For example:
+
+Input: 1200
+Output: 21
+
+
+CONSTRAINTS:
+
+1. The input must be an integer.
+2. The digits must be reversed from right to left.
+3. All digits must be included in the reversed number.
+4. Leading zeros in the reversed result need not be preserved.
+5. If the input is 0, the output must be 0.
+6. The program must reverse the number without converting it into a String.
+
+
+TEST CASES:
+
+
+Test Case 1:
+Input: 12345
+Output: 54321
+
+
+Test Case 2:
+Input: 9876
+Output: 6789
+
+
+Test Case 3:
+Input: 1200
+Output: 21
+
+
+Test Case 4:
+Input: 7
+Output: 7
+
+
+Test Case 5:
+Input: 10025
+Output: 52001
