@@ -1,0 +1,44 @@
+QUESTION: Check Whether a Given Number is a Duck Number
+
+EXPLANATION:
+Write a Java program to check whether a given number is a Duck Number or not.
+
+A Duck Number is a positive integer that contains at least one zero (0) among its digits, but the number must not start with zero.
+
+For example:
+The number 1023 is a Duck Number because it contains the digit 0.
+
+eg:
+		0100-->not a duck number because the number starts with 0
+		100--> Duck number because it has 0 present inside it
+
+The program should accept an integer as input and determine whether the given number is a Duck Number or not.
+
+CONSTRAINTS:
+1. The input must be a positive integer.
+2. The number must contain at least one zero to qualify as a Duck Number.
+3. Leading zeros are not considered part of the number.
+4. A number containing only non-zero digits is not a Duck Number.
+5. Zero itself is not considered a Duck Number.
+
+TEST CASES:
+
+Test Case 1:
+Input: 1023
+Output: Duck Number
+
+Test Case 2:
+Input: 506
+Output: Duck Number
+
+Test Case 3:
+Input: 12045
+Output: Duck Number
+
+Test Case 4:
+Input: 1234
+Output: Not a Duck Number
+
+Test Case 5:
+Input: 0
+Output: Not a Duck Number
