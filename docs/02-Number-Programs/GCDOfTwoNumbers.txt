@@ -1,0 +1,49 @@
+Find the GCD (Greatest Common Divisor) of Two Numbers
+
+EXPLANATION:
+Write a Java program to find the Greatest Common Divisor (GCD) of two given numbers.
+
+The GCD of two numbers is the largest positive integer that divides both numbers without leaving a remainder.
+
+For example:
+The GCD of 12 and 18 is 6 because 6 is the greatest number that divides both 12 and 18 exactly.
+e.g: 12 and 20
+		12 is divisible by 1,2,3,4,6,12
+		20 is divisible by 1,2,4,5,10,20
+		
+
+The program should accept two integers as input, calculate their GCD, and display the result.
+
+CONSTRAINTS:
+1. The input must consist of two non-negative integers.
+2. Both numbers must be valid integers.
+3. The GCD must be the greatest positive common divisor of both numbers.
+4. If one number is zero, the GCD is the other number (provided it is non-zero).
+5. The GCD of 0 and 0 is undefined.
+
+TEST CASES:
+
+Test Case 1:
+Input:
+12 18
+Output: 6
+
+Test Case 2:
+Input:
+24 36
+Output: 12
+
+Test Case 3:
+Input:
+15 25
+Output: 5
+
+Test Case 4:
+Input:
+7 13
+Output: 1
+
+Test Case 5:
+Input:
+0 10
+Output: 10
