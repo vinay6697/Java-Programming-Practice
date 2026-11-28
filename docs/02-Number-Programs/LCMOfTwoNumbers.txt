@@ -1,0 +1,61 @@
+Find the LCM of Two Numbers
+
+ EXPLANATION:
+Given two positive integers, find their Least Common Multiple (LCM).
+
+The LCM of two numbers is the smallest positive number that is exactly divisible by both numbers.
+
+Example:
+Input: 12, 18
+Output: 36
+
+Explanation:
+36 is the smallest positive number that is divisible by both 12 and 18.
+
+ CONSTRAINTS:
+1. Both input numbers must be positive integers.
+2. The two numbers can be equal.
+3. The numbers can be different.
+4. The LCM must be a positive integer.
+
+TEST CASES:
+
+Test Case 1:
+Input:
+12
+18
+
+Output:
+36
+
+Test Case 2:
+Input:
+5
+10
+
+Output:
+10
+
+Test Case 3:
+Input:
+7
+9
+
+Output:
+63
+
+Test Case 4:
+Input:
+8
+8
+
+Output:
+8
+
+Test Case 5:
+Input:
+1
+15
+
+Output:
+15
